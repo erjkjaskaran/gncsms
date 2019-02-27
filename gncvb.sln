@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "gncvb", "gncvb\gncvb.vbproj", "{4CDC3391-59B3-4654-821D-30F4943C47EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CDC3391-59B3-4654-821D-30F4943C47EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDC3391-59B3-4654-821D-30F4943C47EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDC3391-59B3-4654-821D-30F4943C47EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDC3391-59B3-4654-821D-30F4943C47EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65BC317D-E3F3-4C7C-B26D-6CA4054E3DB7}
+	EndGlobalSection
+EndGlobal
