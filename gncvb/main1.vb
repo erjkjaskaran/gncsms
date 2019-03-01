@@ -4,4 +4,10 @@
 		Me.Hide()
 
 	End Sub
+
+	Private Sub ReAdmissionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReAdmissionToolStripMenuItem.Click
+		readmission.Show()
+
+
+	End Sub
 End Class

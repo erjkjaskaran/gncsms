@@ -55,10 +55,11 @@ Partial Class main1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.GhostWhite
 		Me.ClientSize = New System.Drawing.Size(1067, 554)
 		Me.Controls.Add(Me.MenuStrip1)
 		Me.MainMenuStrip = Me.MenuStrip1
-		Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Margin = New System.Windows.Forms.Padding(4)
 		Me.Name = "main1"
 		Me.Text = "Main Menu"
 		Me.MenuStrip1.ResumeLayout(False)

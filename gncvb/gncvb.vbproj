@@ -88,6 +88,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="add new courses.Designer.vb">
+      <DependentUpon>add new courses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="add new courses.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Db.vb" />
     <Compile Include="Errorbox.Designer.vb">
       <DependentUpon>Errorbox.vb</DependentUpon>
@@ -95,10 +101,22 @@
     <Compile Include="Errorbox.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GNCDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GNCDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="list pending fees.Designer.vb">
+      <DependentUpon>list pending fees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="list pending fees.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.vb">
       <SubType>Form</SubType>
@@ -134,10 +152,22 @@
     <Compile Include="newadmission.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="readmission.Designer.vb">
+      <DependentUpon>readmission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="readmission.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="add new courses.resx">
+      <DependentUpon>add new courses.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Errorbox.resx">
       <DependentUpon>Errorbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="list pending fees.resx">
+      <DependentUpon>list pending fees.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>
@@ -153,6 +183,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="newadmission.resx">
       <DependentUpon>newadmission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="readmission.resx">
+      <DependentUpon>readmission.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
