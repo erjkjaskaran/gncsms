@@ -128,6 +128,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="newadmission.Designer.vb">
+      <DependentUpon>newadmission.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newadmission.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Errorbox.resx">
@@ -144,6 +150,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newadmission.resx">
+      <DependentUpon>newadmission.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
