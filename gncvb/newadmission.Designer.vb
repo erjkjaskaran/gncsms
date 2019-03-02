@@ -91,7 +91,7 @@ Partial Class newadmission
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(338, 7)
+        Me.Label1.Location = New System.Drawing.Point(338, 24)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(297, 38)
@@ -102,7 +102,7 @@ Partial Class newadmission
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label2.Location = New System.Drawing.Point(88, 63)
+        Me.Label2.Location = New System.Drawing.Point(88, 100)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(57, 13)
@@ -113,7 +113,7 @@ Partial Class newadmission
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label3.Location = New System.Drawing.Point(88, 172)
+        Me.Label3.Location = New System.Drawing.Point(88, 209)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(68, 13)
@@ -124,7 +124,7 @@ Partial Class newadmission
         '
         Me.Label4.AutoSize = True
         Me.Label4.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label4.Location = New System.Drawing.Point(88, 145)
+        Me.Label4.Location = New System.Drawing.Point(88, 182)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(73, 13)
@@ -135,7 +135,7 @@ Partial Class newadmission
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label5.Location = New System.Drawing.Point(88, 117)
+        Me.Label5.Location = New System.Drawing.Point(88, 154)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(75, 13)
@@ -146,7 +146,7 @@ Partial Class newadmission
         '
         Me.Label6.AutoSize = True
         Me.Label6.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label6.Location = New System.Drawing.Point(88, 89)
+        Me.Label6.Location = New System.Drawing.Point(88, 126)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(58, 13)
@@ -157,7 +157,7 @@ Partial Class newadmission
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox1.Location = New System.Drawing.Point(236, 63)
+        Me.TextBox1.Location = New System.Drawing.Point(236, 100)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(188, 20)
@@ -167,7 +167,7 @@ Partial Class newadmission
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox3.Location = New System.Drawing.Point(236, 149)
+        Me.TextBox3.Location = New System.Drawing.Point(236, 186)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(188, 20)
@@ -177,7 +177,7 @@ Partial Class newadmission
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox4.Location = New System.Drawing.Point(236, 121)
+        Me.TextBox4.Location = New System.Drawing.Point(236, 158)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(188, 20)
@@ -187,7 +187,7 @@ Partial Class newadmission
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.TextBox5.Location = New System.Drawing.Point(236, 93)
+        Me.TextBox5.Location = New System.Drawing.Point(236, 130)
         Me.TextBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(188, 20)
@@ -196,7 +196,7 @@ Partial Class newadmission
         'DateTimePicker1
         '
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(236, 176)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(236, 213)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(188, 20)
@@ -206,7 +206,7 @@ Partial Class newadmission
         '
         Me.Label7.AutoSize = True
         Me.Label7.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label7.Location = New System.Drawing.Point(88, 270)
+        Me.Label7.Location = New System.Drawing.Point(88, 307)
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(99, 13)
@@ -217,7 +217,7 @@ Partial Class newadmission
         '
         Me.Label8.AutoSize = True
         Me.Label8.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label8.Location = New System.Drawing.Point(88, 377)
+        Me.Label8.Location = New System.Drawing.Point(88, 414)
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(116, 13)
@@ -228,7 +228,7 @@ Partial Class newadmission
         '
         Me.Label9.AutoSize = True
         Me.Label9.ForeColor = System.Drawing.Color.Navy
-        Me.Label9.Location = New System.Drawing.Point(88, 449)
+        Me.Label9.Location = New System.Drawing.Point(88, 486)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(125, 13)
@@ -239,7 +239,7 @@ Partial Class newadmission
         '
         Me.Label10.AutoSize = True
         Me.Label10.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label10.Location = New System.Drawing.Point(88, 210)
+        Me.Label10.Location = New System.Drawing.Point(88, 247)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(42, 13)
@@ -250,7 +250,7 @@ Partial Class newadmission
         '
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox1.Location = New System.Drawing.Point(236, 237)
+        Me.RichTextBox1.Location = New System.Drawing.Point(236, 274)
         Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(188, 79)
@@ -261,7 +261,8 @@ Partial Class newadmission
         '
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(236, 207)
+        Me.ComboBox1.Items.AddRange(New Object() {"Male", "Female", "Transgender"})
+        Me.ComboBox1.Location = New System.Drawing.Point(236, 244)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(188, 21)
@@ -272,7 +273,7 @@ Partial Class newadmission
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(251, 327)
+        Me.CheckBox1.Location = New System.Drawing.Point(251, 364)
         Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(158, 17)
@@ -283,7 +284,7 @@ Partial Class newadmission
         'RichTextBox2
         '
         Me.RichTextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox2.Location = New System.Drawing.Point(236, 353)
+        Me.RichTextBox2.Location = New System.Drawing.Point(236, 390)
         Me.RichTextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(188, 79)
@@ -292,7 +293,7 @@ Partial Class newadmission
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(236, 446)
+        Me.TextBox2.Location = New System.Drawing.Point(236, 483)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(191, 20)
@@ -302,7 +303,7 @@ Partial Class newadmission
         '
         Me.Label11.AutoSize = True
         Me.Label11.ForeColor = System.Drawing.Color.Navy
-        Me.Label11.Location = New System.Drawing.Point(88, 478)
+        Me.Label11.Location = New System.Drawing.Point(88, 515)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(119, 13)
@@ -311,7 +312,7 @@ Partial Class newadmission
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(236, 475)
+        Me.TextBox6.Location = New System.Drawing.Point(236, 512)
         Me.TextBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(191, 20)
@@ -321,7 +322,7 @@ Partial Class newadmission
         '
         Me.Label12.AutoSize = True
         Me.Label12.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Label12.Location = New System.Drawing.Point(603, 113)
+        Me.Label12.Location = New System.Drawing.Point(546, 150)
         Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(111, 13)
@@ -332,7 +333,7 @@ Partial Class newadmission
         '
         Me.Label13.AutoSize = True
         Me.Label13.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Label13.Location = New System.Drawing.Point(603, 87)
+        Me.Label13.Location = New System.Drawing.Point(546, 124)
         Me.Label13.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(78, 13)
@@ -343,7 +344,7 @@ Partial Class newadmission
         '
         Me.Label14.AutoSize = True
         Me.Label14.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Label14.Location = New System.Drawing.Point(603, 63)
+        Me.Label14.Location = New System.Drawing.Point(546, 100)
         Me.Label14.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(106, 13)
@@ -354,7 +355,7 @@ Partial Class newadmission
         '
         Me.Label15.AutoSize = True
         Me.Label15.ForeColor = System.Drawing.Color.Navy
-        Me.Label15.Location = New System.Drawing.Point(88, 560)
+        Me.Label15.Location = New System.Drawing.Point(88, 597)
         Me.Label15.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(45, 13)
@@ -365,7 +366,7 @@ Partial Class newadmission
         '
         Me.Label16.AutoSize = True
         Me.Label16.ForeColor = System.Drawing.Color.Navy
-        Me.Label16.Location = New System.Drawing.Point(88, 533)
+        Me.Label16.Location = New System.Drawing.Point(88, 570)
         Me.Label16.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(34, 13)
@@ -376,7 +377,7 @@ Partial Class newadmission
         '
         Me.Label17.AutoSize = True
         Me.Label17.ForeColor = System.Drawing.Color.Navy
-        Me.Label17.Location = New System.Drawing.Point(88, 507)
+        Me.Label17.Location = New System.Drawing.Point(88, 544)
         Me.Label17.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(39, 13)
@@ -385,31 +386,31 @@ Partial Class newadmission
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(797, 113)
+        Me.TextBox7.Location = New System.Drawing.Point(735, 150)
         Me.TextBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(110, 20)
+        Me.TextBox7.Size = New System.Drawing.Size(179, 20)
         Me.TextBox7.TabIndex = 30
         '
         'TextBox8
         '
-        Me.TextBox8.Location = New System.Drawing.Point(797, 87)
+        Me.TextBox8.Location = New System.Drawing.Point(735, 124)
         Me.TextBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(110, 20)
+        Me.TextBox8.Size = New System.Drawing.Size(179, 20)
         Me.TextBox8.TabIndex = 31
         '
         'TextBox9
         '
-        Me.TextBox9.Location = New System.Drawing.Point(797, 63)
+        Me.TextBox9.Location = New System.Drawing.Point(735, 100)
         Me.TextBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(110, 20)
+        Me.TextBox9.Size = New System.Drawing.Size(180, 20)
         Me.TextBox9.TabIndex = 32
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(236, 557)
+        Me.TextBox10.Location = New System.Drawing.Point(236, 594)
         Me.TextBox10.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(191, 20)
@@ -417,7 +418,7 @@ Partial Class newadmission
         '
         'TextBox11
         '
-        Me.TextBox11.Location = New System.Drawing.Point(236, 504)
+        Me.TextBox11.Location = New System.Drawing.Point(236, 541)
         Me.TextBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(191, 20)
@@ -426,7 +427,7 @@ Partial Class newadmission
         'ComboBox2
         '
         Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(236, 530)
+        Me.ComboBox2.Location = New System.Drawing.Point(236, 567)
         Me.ComboBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox2.Name = "ComboBox2"
         Me.ComboBox2.Size = New System.Drawing.Size(191, 21)
@@ -437,7 +438,7 @@ Partial Class newadmission
         '
         Me.Label18.AutoSize = True
         Me.Label18.ForeColor = System.Drawing.Color.Navy
-        Me.Label18.Location = New System.Drawing.Point(603, 359)
+        Me.Label18.Location = New System.Drawing.Point(546, 396)
         Me.Label18.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(52, 13)
@@ -448,7 +449,7 @@ Partial Class newadmission
         '
         Me.Label19.AutoSize = True
         Me.Label19.ForeColor = System.Drawing.Color.Navy
-        Me.Label19.Location = New System.Drawing.Point(603, 332)
+        Me.Label19.Location = New System.Drawing.Point(546, 369)
         Me.Label19.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(52, 13)
@@ -459,7 +460,7 @@ Partial Class newadmission
         '
         Me.Label20.AutoSize = True
         Me.Label20.ForeColor = System.Drawing.Color.Navy
-        Me.Label20.Location = New System.Drawing.Point(603, 307)
+        Me.Label20.Location = New System.Drawing.Point(546, 344)
         Me.Label20.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(52, 13)
@@ -470,7 +471,7 @@ Partial Class newadmission
         '
         Me.Label21.AutoSize = True
         Me.Label21.ForeColor = System.Drawing.Color.Navy
-        Me.Label21.Location = New System.Drawing.Point(603, 283)
+        Me.Label21.Location = New System.Drawing.Point(546, 320)
         Me.Label21.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(52, 13)
@@ -481,7 +482,7 @@ Partial Class newadmission
         '
         Me.Label22.AutoSize = True
         Me.Label22.ForeColor = System.Drawing.Color.Navy
-        Me.Label22.Location = New System.Drawing.Point(602, 257)
+        Me.Label22.Location = New System.Drawing.Point(545, 294)
         Me.Label22.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(52, 13)
@@ -492,7 +493,7 @@ Partial Class newadmission
         '
         Me.Label23.AutoSize = True
         Me.Label23.ForeColor = System.Drawing.Color.Navy
-        Me.Label23.Location = New System.Drawing.Point(603, 228)
+        Me.Label23.Location = New System.Drawing.Point(546, 265)
         Me.Label23.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(52, 13)
@@ -503,7 +504,7 @@ Partial Class newadmission
         '
         Me.Label24.AutoSize = True
         Me.Label24.ForeColor = System.Drawing.Color.Navy
-        Me.Label24.Location = New System.Drawing.Point(603, 200)
+        Me.Label24.Location = New System.Drawing.Point(546, 237)
         Me.Label24.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(51, 13)
@@ -514,7 +515,7 @@ Partial Class newadmission
         '
         Me.Label25.AutoSize = True
         Me.Label25.ForeColor = System.Drawing.Color.Navy
-        Me.Label25.Location = New System.Drawing.Point(603, 172)
+        Me.Label25.Location = New System.Drawing.Point(546, 209)
         Me.Label25.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(32, 13)
@@ -525,7 +526,7 @@ Partial Class newadmission
         '
         Me.Label26.AutoSize = True
         Me.Label26.ForeColor = System.Drawing.Color.CadetBlue
-        Me.Label26.Location = New System.Drawing.Point(603, 143)
+        Me.Label26.Location = New System.Drawing.Point(546, 180)
         Me.Label26.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label26.Name = "Label26"
         Me.Label26.Size = New System.Drawing.Size(62, 13)
@@ -535,90 +536,90 @@ Partial Class newadmission
         'ComboBox3
         '
         Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(798, 140)
+        Me.ComboBox3.Location = New System.Drawing.Point(736, 177)
         Me.ComboBox3.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox3.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox3.TabIndex = 45
         Me.ComboBox3.Text = "Select"
         '
         'ComboBox4
         '
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(798, 166)
+        Me.ComboBox4.Location = New System.Drawing.Point(736, 203)
         Me.ComboBox4.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox4.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox4.TabIndex = 46
         Me.ComboBox4.Text = "Select"
         '
         'ComboBox5
         '
         Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(798, 194)
+        Me.ComboBox5.Location = New System.Drawing.Point(736, 231)
         Me.ComboBox5.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox5.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox5.TabIndex = 47
         Me.ComboBox5.Text = "Select"
         '
         'ComboBox6
         '
         Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(798, 222)
+        Me.ComboBox6.Location = New System.Drawing.Point(736, 259)
         Me.ComboBox6.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox6.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox6.TabIndex = 48
         Me.ComboBox6.Text = "Select"
         '
         'ComboBox7
         '
         Me.ComboBox7.FormattingEnabled = True
-        Me.ComboBox7.Location = New System.Drawing.Point(798, 251)
+        Me.ComboBox7.Location = New System.Drawing.Point(736, 288)
         Me.ComboBox7.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox7.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox7.TabIndex = 49
         Me.ComboBox7.Text = "Select"
         '
         'ComboBox8
         '
         Me.ComboBox8.FormattingEnabled = True
-        Me.ComboBox8.Location = New System.Drawing.Point(798, 277)
+        Me.ComboBox8.Location = New System.Drawing.Point(736, 314)
         Me.ComboBox8.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox8.Name = "ComboBox8"
-        Me.ComboBox8.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox8.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox8.TabIndex = 50
         Me.ComboBox8.Text = "Select"
         '
         'ComboBox9
         '
         Me.ComboBox9.FormattingEnabled = True
-        Me.ComboBox9.Location = New System.Drawing.Point(798, 301)
+        Me.ComboBox9.Location = New System.Drawing.Point(736, 338)
         Me.ComboBox9.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox9.Name = "ComboBox9"
-        Me.ComboBox9.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox9.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox9.TabIndex = 51
         Me.ComboBox9.Text = "Select"
         '
         'ComboBox10
         '
         Me.ComboBox10.FormattingEnabled = True
-        Me.ComboBox10.Location = New System.Drawing.Point(798, 326)
+        Me.ComboBox10.Location = New System.Drawing.Point(736, 363)
         Me.ComboBox10.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox10.Name = "ComboBox10"
-        Me.ComboBox10.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox10.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox10.TabIndex = 52
         Me.ComboBox10.Text = "Select"
         '
         'ComboBox11
         '
         Me.ComboBox11.FormattingEnabled = True
-        Me.ComboBox11.Location = New System.Drawing.Point(798, 353)
+        Me.ComboBox11.Location = New System.Drawing.Point(736, 390)
         Me.ComboBox11.Margin = New System.Windows.Forms.Padding(2)
         Me.ComboBox11.Name = "ComboBox11"
-        Me.ComboBox11.Size = New System.Drawing.Size(110, 21)
+        Me.ComboBox11.Size = New System.Drawing.Size(179, 21)
         Me.ComboBox11.TabIndex = 53
         Me.ComboBox11.Text = "Select"
         '
@@ -626,7 +627,7 @@ Partial Class newadmission
         '
         Me.Label27.AutoSize = True
         Me.Label27.ForeColor = System.Drawing.Color.Navy
-        Me.Label27.Location = New System.Drawing.Point(603, 386)
+        Me.Label27.Location = New System.Drawing.Point(546, 423)
         Me.Label27.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label27.Name = "Label27"
         Me.Label27.Size = New System.Drawing.Size(180, 13)
@@ -637,7 +638,7 @@ Partial Class newadmission
         '
         Me.Label28.AutoSize = True
         Me.Label28.ForeColor = System.Drawing.Color.Navy
-        Me.Label28.Location = New System.Drawing.Point(603, 419)
+        Me.Label28.Location = New System.Drawing.Point(546, 456)
         Me.Label28.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(115, 13)
@@ -646,33 +647,33 @@ Partial Class newadmission
         '
         'TextBox12
         '
-        Me.TextBox12.Location = New System.Drawing.Point(744, 414)
+        Me.TextBox12.Location = New System.Drawing.Point(735, 451)
         Me.TextBox12.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(163, 20)
+        Me.TextBox12.Size = New System.Drawing.Size(179, 20)
         Me.TextBox12.TabIndex = 58
         '
         'TextBox13
         '
-        Me.TextBox13.Location = New System.Drawing.Point(797, 469)
+        Me.TextBox13.Location = New System.Drawing.Point(735, 506)
         Me.TextBox13.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(110, 20)
+        Me.TextBox13.Size = New System.Drawing.Size(179, 20)
         Me.TextBox13.TabIndex = 59
         '
         'TextBox14
         '
-        Me.TextBox14.Location = New System.Drawing.Point(797, 441)
+        Me.TextBox14.Location = New System.Drawing.Point(735, 478)
         Me.TextBox14.Margin = New System.Windows.Forms.Padding(2)
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(110, 20)
+        Me.TextBox14.Size = New System.Drawing.Size(179, 20)
         Me.TextBox14.TabIndex = 60
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.ForeColor = System.Drawing.Color.Navy
-        Me.Label29.Location = New System.Drawing.Point(603, 472)
+        Me.Label29.Location = New System.Drawing.Point(546, 509)
         Me.Label29.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(75, 13)
@@ -683,7 +684,7 @@ Partial Class newadmission
         '
         Me.Label30.AutoSize = True
         Me.Label30.ForeColor = System.Drawing.Color.Navy
-        Me.Label30.Location = New System.Drawing.Point(603, 444)
+        Me.Label30.Location = New System.Drawing.Point(546, 481)
         Me.Label30.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(57, 13)
@@ -692,16 +693,16 @@ Partial Class newadmission
         '
         'btlogin
         '
-        Me.btlogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.btlogin.BackColor = System.Drawing.Color.Teal
         Me.btlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btlogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
         Me.btlogin.FlatAppearance.BorderSize = 0
         Me.btlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.btlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+        Me.btlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
         Me.btlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btlogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btlogin.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btlogin.Location = New System.Drawing.Point(345, 640)
+        Me.btlogin.Location = New System.Drawing.Point(345, 653)
         Me.btlogin.Margin = New System.Windows.Forms.Padding(0)
         Me.btlogin.Name = "btlogin"
         Me.btlogin.Size = New System.Drawing.Size(116, 37)
@@ -711,16 +712,16 @@ Partial Class newadmission
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button1.BackColor = System.Drawing.Color.Teal
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(510, 639)
+        Me.Button1.Location = New System.Drawing.Point(510, 652)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(116, 37)
@@ -731,10 +732,10 @@ Partial Class newadmission
         'scholarship
         '
         Me.scholarship.FormattingEnabled = True
-        Me.scholarship.Location = New System.Drawing.Point(798, 383)
+        Me.scholarship.Location = New System.Drawing.Point(736, 420)
         Me.scholarship.Margin = New System.Windows.Forms.Padding(2)
         Me.scholarship.Name = "scholarship"
-        Me.scholarship.Size = New System.Drawing.Size(110, 21)
+        Me.scholarship.Size = New System.Drawing.Size(179, 21)
         Me.scholarship.TabIndex = 67
         Me.scholarship.Text = "Select"
         '
@@ -811,6 +812,7 @@ Partial Class newadmission
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "newadmission"
         Me.Text = "New Admission"
+        Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
