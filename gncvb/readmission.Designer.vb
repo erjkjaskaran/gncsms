@@ -22,7 +22,6 @@ Partial Class readmission
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-        Me.EventLog1 = New System.Diagnostics.EventLog()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -52,19 +51,14 @@ Partial Class readmission
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.btlogin = New System.Windows.Forms.Button()
-        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'EventLog1
-        '
-        Me.EventLog1.SynchronizingObject = Me
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(143, 29)
+        Me.Label1.Location = New System.Drawing.Point(179, 30)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(266, 38)
         Me.Label1.TabIndex = 0
@@ -263,7 +257,7 @@ Partial Class readmission
         Me.ComboBox1.Location = New System.Drawing.Point(259, 221)
         Me.ComboBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox1.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox1.TabIndex = 28
         '
         'ComboBox2
@@ -272,7 +266,7 @@ Partial Class readmission
         Me.ComboBox2.Location = New System.Drawing.Point(259, 248)
         Me.ComboBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox2.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox2.TabIndex = 29
         '
         'ComboBox3
@@ -281,7 +275,7 @@ Partial Class readmission
         Me.ComboBox3.Location = New System.Drawing.Point(259, 355)
         Me.ComboBox3.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox3.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox3.TabIndex = 30
         '
         'ComboBox4
@@ -290,7 +284,7 @@ Partial Class readmission
         Me.ComboBox4.Location = New System.Drawing.Point(259, 328)
         Me.ComboBox4.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox4.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox4.TabIndex = 31
         '
         'ComboBox5
@@ -299,7 +293,7 @@ Partial Class readmission
         Me.ComboBox5.Location = New System.Drawing.Point(259, 302)
         Me.ComboBox5.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox5.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox5.TabIndex = 32
         '
         'ComboBox6
@@ -308,7 +302,7 @@ Partial Class readmission
         Me.ComboBox6.Location = New System.Drawing.Point(259, 275)
         Me.ComboBox6.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(292, 22)
+        Me.ComboBox6.Size = New System.Drawing.Size(274, 22)
         Me.ComboBox6.TabIndex = 33
         '
         'Button1
@@ -354,7 +348,7 @@ Partial Class readmission
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.GhostWhite
-        Me.ClientSize = New System.Drawing.Size(596, 558)
+        Me.ClientSize = New System.Drawing.Size(580, 558)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btlogin)
         Me.Controls.Add(Me.ComboBox6)
@@ -390,15 +384,12 @@ Partial Class readmission
         Me.Name = "readmission"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "readmission"
-        CType(Me.EventLog1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents EventLog1 As EventLog
-	Friend WithEvents Label1 As Label
-	Friend WithEvents Label14 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label14 As Label
 	Friend WithEvents Label13 As Label
 	Friend WithEvents Label12 As Label
 	Friend WithEvents Label11 As Label

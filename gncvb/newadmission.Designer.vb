@@ -37,10 +37,10 @@ Partial Class newadmission
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.txtbpa = New System.Windows.Forms.RichTextBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
+        Me.cbaddress = New System.Windows.Forms.CheckBox()
+        Me.txtbca = New System.Windows.Forms.RichTextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.TextBox6 = New System.Windows.Forms.TextBox()
@@ -65,8 +65,8 @@ Partial Class newadmission
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.cbdept = New System.Windows.Forms.ComboBox()
+        Me.cbclass = New System.Windows.Forms.ComboBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
         Me.ComboBox7 = New System.Windows.Forms.ComboBox()
@@ -231,15 +231,15 @@ Partial Class newadmission
         Me.Label10.TabIndex = 15
         Me.Label10.Text = "Gender"
         '
-        'RichTextBox1
+        'txtbpa
         '
-        Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.RichTextBox1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox1.Location = New System.Drawing.Point(238, 261)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(247, 85)
-        Me.RichTextBox1.TabIndex = 17
-        Me.RichTextBox1.Text = ""
+        Me.txtbpa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbpa.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbpa.Location = New System.Drawing.Point(238, 261)
+        Me.txtbpa.Name = "txtbpa"
+        Me.txtbpa.Size = New System.Drawing.Size(247, 85)
+        Me.txtbpa.TabIndex = 17
+        Me.txtbpa.Text = ""
         '
         'ComboBox1
         '
@@ -252,25 +252,25 @@ Partial Class newadmission
         Me.ComboBox1.TabIndex = 18
         Me.ComboBox1.Text = "Select"
         '
-        'CheckBox1
+        'cbaddress
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox1.Location = New System.Drawing.Point(256, 358)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(203, 18)
-        Me.CheckBox1.TabIndex = 19
-        Me.CheckBox1.Text = "Same as Pemanent address"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.cbaddress.AutoSize = True
+        Me.cbaddress.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cbaddress.Location = New System.Drawing.Point(256, 358)
+        Me.cbaddress.Name = "cbaddress"
+        Me.cbaddress.Size = New System.Drawing.Size(203, 18)
+        Me.cbaddress.TabIndex = 19
+        Me.cbaddress.Text = "Same as Pemanent address"
+        Me.cbaddress.UseVisualStyleBackColor = True
         '
-        'RichTextBox2
+        'txtbca
         '
-        Me.RichTextBox2.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox2.Location = New System.Drawing.Point(238, 386)
-        Me.RichTextBox2.Name = "RichTextBox2"
-        Me.RichTextBox2.Size = New System.Drawing.Size(247, 85)
-        Me.RichTextBox2.TabIndex = 20
-        Me.RichTextBox2.Text = ""
+        Me.txtbca.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbca.Location = New System.Drawing.Point(238, 386)
+        Me.txtbca.Name = "txtbca"
+        Me.txtbca.Size = New System.Drawing.Size(247, 85)
+        Me.txtbca.TabIndex = 20
+        Me.txtbca.Text = ""
         '
         'TextBox2
         '
@@ -495,23 +495,23 @@ Partial Class newadmission
         Me.Label26.TabIndex = 44
         Me.Label26.Text = "Department"
         '
-        'ComboBox3
+        'cbdept
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(902, 157)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(237, 22)
-        Me.ComboBox3.TabIndex = 45
-        Me.ComboBox3.Text = "Select"
+        Me.cbdept.FormattingEnabled = True
+        Me.cbdept.Location = New System.Drawing.Point(902, 157)
+        Me.cbdept.Name = "cbdept"
+        Me.cbdept.Size = New System.Drawing.Size(237, 22)
+        Me.cbdept.TabIndex = 45
+        Me.cbdept.Text = "Select"
         '
-        'ComboBox4
+        'cbclass
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(902, 185)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(237, 22)
-        Me.ComboBox4.TabIndex = 46
-        Me.ComboBox4.Text = "Select"
+        Me.cbclass.FormattingEnabled = True
+        Me.cbclass.Location = New System.Drawing.Point(902, 185)
+        Me.cbclass.Name = "cbclass"
+        Me.cbclass.Size = New System.Drawing.Size(237, 22)
+        Me.cbclass.TabIndex = 46
+        Me.cbclass.Text = "Select"
         '
         'ComboBox5
         '
@@ -707,8 +707,8 @@ Partial Class newadmission
         Me.Controls.Add(Me.ComboBox7)
         Me.Controls.Add(Me.ComboBox6)
         Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.cbclass)
+        Me.Controls.Add(Me.cbdept)
         Me.Controls.Add(Me.Label26)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Label24)
@@ -733,10 +733,10 @@ Partial Class newadmission
         Me.Controls.Add(Me.TextBox6)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.RichTextBox2)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.txtbca)
+        Me.Controls.Add(Me.cbaddress)
         Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.RichTextBox1)
+        Me.Controls.Add(Me.txtbpa)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
@@ -756,6 +756,7 @@ Partial Class newadmission
         Me.ForeColor = System.Drawing.Color.DimGray
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "newadmission"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "New Admission"
         Me.TopMost = True
         Me.ResumeLayout(False)
@@ -778,10 +779,10 @@ Partial Class newadmission
 	Friend WithEvents Label8 As Label
 	Friend WithEvents Label9 As Label
 	Friend WithEvents Label10 As Label
-	Friend WithEvents RichTextBox1 As RichTextBox
+	Friend WithEvents txtbpa As RichTextBox
 	Friend WithEvents ComboBox1 As ComboBox
-	Friend WithEvents CheckBox1 As CheckBox
-	Friend WithEvents RichTextBox2 As RichTextBox
+	Friend WithEvents cbaddress As CheckBox
+	Friend WithEvents txtbca As RichTextBox
 	Friend WithEvents TextBox2 As TextBox
 	Friend WithEvents Label11 As Label
 	Friend WithEvents TextBox6 As TextBox
@@ -806,8 +807,8 @@ Partial Class newadmission
 	Friend WithEvents Label24 As Label
 	Friend WithEvents Label25 As Label
 	Friend WithEvents Label26 As Label
-	Friend WithEvents ComboBox3 As ComboBox
-	Friend WithEvents ComboBox4 As ComboBox
+	Friend WithEvents cbdept As ComboBox
+	Friend WithEvents cbclass As ComboBox
 	Friend WithEvents ComboBox5 As ComboBox
 	Friend WithEvents ComboBox6 As ComboBox
 	Friend WithEvents ComboBox7 As ComboBox

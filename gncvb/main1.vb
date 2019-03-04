@@ -10,4 +10,9 @@
         Me.Hide()
     End Sub
 
+
+
+    Private Sub XToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles XToolStripMenuItem.Click
+        Me.Hide()
+    End Sub
 End Class

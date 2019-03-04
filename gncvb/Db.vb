@@ -17,8 +17,8 @@ Module Db
     End Function
 
     Public Function Updateqry(a)
-		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\GNC.mdb"
-		Dim Connection As New OleDbConnection(ConnectionString)
+        ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\GNC.mdb"
+        Dim Connection As New OleDbConnection(ConnectionString)
         Connection.Open()
     End Function
 End Module
