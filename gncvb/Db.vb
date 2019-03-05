@@ -8,8 +8,8 @@ Module Db
 
 
     Public Function Selectqry(a) As OleDbDataReader
-        ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\Documents\\GNC.mdb"
-        Dim Connection As New OleDbConnection(ConnectionString)
+		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\GNC.mdb"
+		Dim Connection As New OleDbConnection(ConnectionString)
         Connection.Open()
         cmd1 = New OleDb.OleDbCommand(a, Connection)
         dr = cmd1.ExecuteReader()
