@@ -25,6 +25,11 @@ Partial Class main1
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.NewAdmissionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReAdmissionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -32,10 +37,10 @@ Partial Class main1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewAdmissionToolStripMenuItem, Me.ReAdmissionToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewAdmissionToolStripMenuItem, Me.ReAdmissionToolStripMenuItem, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.XToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(750, 24)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -53,13 +58,43 @@ Partial Class main1
         Me.ReAdmissionToolStripMenuItem.Size = New System.Drawing.Size(96, 20)
         Me.ReAdmissionToolStripMenuItem.Text = "Re- Admission"
         '
+        'XToolStripMenuItem
+        '
+        Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
+        Me.XToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
+        Me.XToolStripMenuItem.Text = "X"
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(127, 20)
+        Me.ToolStripMenuItem1.Text = "                                    "
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(151, 20)
+        Me.ToolStripMenuItem2.Text = "                                            "
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(130, 20)
+        Me.ToolStripMenuItem3.Text = "                                     "
+        '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(109, 20)
+        Me.ToolStripMenuItem4.Text = "                              "
+        '
         'main1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.GhostWhite
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(750, 446)
         Me.Controls.Add(Me.MenuStrip1)
         Me.ForeColor = System.Drawing.Color.DimGray
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -78,4 +113,9 @@ Partial Class main1
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents NewAdmissionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReAdmissionToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem3 As ToolStripMenuItem
+    Friend WithEvents XToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem4 As ToolStripMenuItem
 End Class
