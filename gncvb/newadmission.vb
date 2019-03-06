@@ -57,11 +57,17 @@ Public Class newadmission
 		dr.Read()
 		Dim a As Integer
 		a = dr("sem")
-		Console.WriteLine(a)
-		For i = 1 To a
+
+        For i = 1 To a
 			cbsem.Items.Add(i)
 		Next
-        sql = "select subject from course_1 where class='" + cbclass.Text + "'"
+
+
+
+    End Sub
+
+	Private Sub ComboBox5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsem.SelectedIndexChanged
+        sql = "select subject from course_1 where class='" + cbclass.Text + "' and sem=" + cbsem.Text
         dr = Db.Selectqry(sql)
         While (dr.Read())
             cbsub1.Items.Add(dr("subject"))
@@ -71,11 +77,54 @@ Public Class newadmission
             cbsub5.Items.Add(dr("subject"))
             cbsub6.Items.Add(dr("subject"))
         End While
-
-
     End Sub
 
-	Private Sub ComboBox5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsem.SelectedIndexChanged
+    Private Sub cbsub1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub1.SelectedIndexChanged
+        cbsub2.Items.Remove(cbsub1.Text)
+        cbsub3.Items.Remove(cbsub1.Text)
+        cbsub4.Items.Remove(cbsub1.Text)
+        cbsub5.Items.Remove(cbsub1.Text)
+        cbsub6.Items.Remove(cbsub1.Text)
+    End Sub
 
-	End Sub
+    Private Sub cbsub2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub2.SelectedIndexChanged
+        cbsub1.Items.Remove(cbsub1.Text)
+        cbsub3.Items.Remove(cbsub1.Text)
+        cbsub4.Items.Remove(cbsub1.Text)
+        cbsub5.Items.Remove(cbsub1.Text)
+        cbsub6.Items.Remove(cbsub1.Text)
+    End Sub
+
+    Private Sub cbsub3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub3.SelectedIndexChanged
+        cbsub1.Items.Remove(cbsub1.Text)
+        cbsub2.Items.Remove(cbsub1.Text)
+        cbsub4.Items.Remove(cbsub1.Text)
+        cbsub5.Items.Remove(cbsub1.Text)
+        cbsub6.Items.Remove(cbsub1.Text)
+    End Sub
+
+    Private Sub cbsub4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub4.SelectedIndexChanged
+        cbsub1.Items.Remove(cbsub1.Text)
+        cbsub2.Items.Remove(cbsub1.Text)
+        cbsub3.Items.Remove(cbsub1.Text)
+        cbsub5.Items.Remove(cbsub1.Text)
+        cbsub6.Items.Remove(cbsub1.Text)
+    End Sub
+
+    Private Sub cbsub5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub5.SelectedIndexChanged
+        cbsub1.Items.Remove(cbsub1.Text)
+        cbsub2.Items.Remove(cbsub1.Text)
+        cbsub3.Items.Remove(cbsub1.Text)
+        cbsub4.Items.Remove(cbsub1.Text)
+        cbsub6.Items.Remove(cbsub1.Text)
+    End Sub
+
+    Private Sub cbsub6_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub6.SelectedIndexChanged
+        cbsub1.Items.Remove(cbsub1.Text)
+        cbsub2.Items.Remove(cbsub1.Text)
+        cbsub3.Items.Remove(cbsub1.Text)
+        cbsub4.Items.Remove(cbsub1.Text)
+        cbsub5.Items.Remove(cbsub1.Text)
+
+    End Sub
 End Class
