@@ -45,9 +45,15 @@ Public Class newadmission
 	End Sub
 
 	Private Sub cbclass_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbclass.SelectedIndexChanged
-		cbsem.Items.Clear()
-		sql = "select distinct(sem) from courses where class='" + cbclass.Text + "'"
-		dr = Db.Selectqry(sql)
+        cbsem.Items.Clear()
+        cbsub1.Items.Clear()
+        cbsub2.Items.Clear()
+        cbsub3.Items.Clear()
+        cbsub4.Items.Clear()
+        cbsub5.Items.Clear()
+        cbsub6.Items.Clear()
+        sql = "select sem from courses where class='" + cbclass.Text + "'"
+        dr = Db.Selectqry(sql)
 		dr.Read()
 		Dim a As Integer
 		a = dr("sem")
@@ -55,11 +61,19 @@ Public Class newadmission
 		For i = 1 To a
 			cbsem.Items.Add(i)
 		Next
+        sql = "select subject from course_1 where class='" + cbclass.Text + "'"
+        dr = Db.Selectqry(sql)
+        While (dr.Read())
+            cbsub1.Items.Add(dr("subject"))
+            cbsub2.Items.Add(dr("subject"))
+            cbsub3.Items.Add(dr("subject"))
+            cbsub4.Items.Add(dr("subject"))
+            cbsub5.Items.Add(dr("subject"))
+            cbsub6.Items.Add(dr("subject"))
+        End While
 
 
-
-
-	End Sub
+    End Sub
 
 	Private Sub ComboBox5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsem.SelectedIndexChanged
 
