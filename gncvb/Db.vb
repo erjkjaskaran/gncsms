@@ -8,7 +8,7 @@ Module Db
 
 
     Public Function Selectqry(a) As OleDbDataReader
-		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\GNC.mdb"
+		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\ASUS\\source\\repos\\erjkjaskaran\\gncvb\\gncvb\\GNC.mdb"
 		Dim Connection As New OleDbConnection(ConnectionString)
         Connection.Open()
         cmd1 = New OleDb.OleDbCommand(a, Connection)
@@ -17,7 +17,7 @@ Module Db
     End Function
 
     Public Function Updateqry(a)
-		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\\GNC.mdb"
+		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\ASUS\\source\\repos\\erjkjaskaran\\gncvb\\gncvb\\GNC.mdb"
 		Dim Connection As New OleDbConnection(ConnectionString)
 		Connection.Open()
     End Function
