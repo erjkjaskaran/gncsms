@@ -28,34 +28,34 @@ Partial Class newadmission
 		Me.Label4 = New System.Windows.Forms.Label()
 		Me.Label5 = New System.Windows.Forms.Label()
 		Me.Label6 = New System.Windows.Forms.Label()
-		Me.TextBox1 = New System.Windows.Forms.TextBox()
-		Me.TextBox3 = New System.Windows.Forms.TextBox()
-		Me.TextBox4 = New System.Windows.Forms.TextBox()
-		Me.TextBox5 = New System.Windows.Forms.TextBox()
-		Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+		Me.nmfirstname = New System.Windows.Forms.TextBox()
+		Me.nmmothername = New System.Windows.Forms.TextBox()
+		Me.nmfathername = New System.Windows.Forms.TextBox()
+		Me.nmlastname = New System.Windows.Forms.TextBox()
+		Me.nmdob = New System.Windows.Forms.DateTimePicker()
 		Me.Label7 = New System.Windows.Forms.Label()
 		Me.Label8 = New System.Windows.Forms.Label()
 		Me.Label9 = New System.Windows.Forms.Label()
 		Me.Label10 = New System.Windows.Forms.Label()
-		Me.txtbpa = New System.Windows.Forms.RichTextBox()
-		Me.cbgender = New System.Windows.Forms.ComboBox()
+		Me.nmpa = New System.Windows.Forms.RichTextBox()
+		Me.nmgender = New System.Windows.Forms.ComboBox()
 		Me.cbaddress = New System.Windows.Forms.CheckBox()
-		Me.txtbca = New System.Windows.Forms.RichTextBox()
-		Me.TextBox2 = New System.Windows.Forms.TextBox()
+		Me.nmca = New System.Windows.Forms.RichTextBox()
+		Me.nmsmnumber = New System.Windows.Forms.TextBox()
 		Me.Label11 = New System.Windows.Forms.Label()
-		Me.TextBox6 = New System.Windows.Forms.TextBox()
+		Me.nmpmnumber = New System.Windows.Forms.TextBox()
 		Me.Label12 = New System.Windows.Forms.Label()
 		Me.Label13 = New System.Windows.Forms.Label()
 		Me.Label14 = New System.Windows.Forms.Label()
 		Me.Label15 = New System.Windows.Forms.Label()
 		Me.Label16 = New System.Windows.Forms.Label()
 		Me.Label17 = New System.Windows.Forms.Label()
-		Me.TextBox7 = New System.Windows.Forms.TextBox()
-		Me.TextBox8 = New System.Windows.Forms.TextBox()
-		Me.TextBox9 = New System.Windows.Forms.TextBox()
-		Me.TextBox10 = New System.Windows.Forms.TextBox()
-		Me.TextBox11 = New System.Windows.Forms.TextBox()
-		Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+		Me.nmconveyance = New System.Windows.Forms.TextBox()
+		Me.nmaincome = New System.Windows.Forms.TextBox()
+		Me.nmadnumber = New System.Windows.Forms.TextBox()
+		Me.nmreligion = New System.Windows.Forms.TextBox()
+		Me.nmemail = New System.Windows.Forms.TextBox()
+		Me.nmcbcaste = New System.Windows.Forms.ComboBox()
 		Me.Label18 = New System.Windows.Forms.Label()
 		Me.Label19 = New System.Windows.Forms.Label()
 		Me.Label20 = New System.Windows.Forms.Label()
@@ -65,25 +65,25 @@ Partial Class newadmission
 		Me.Label24 = New System.Windows.Forms.Label()
 		Me.Label25 = New System.Windows.Forms.Label()
 		Me.Label26 = New System.Windows.Forms.Label()
-		Me.cbdept = New System.Windows.Forms.ComboBox()
-		Me.cbclass = New System.Windows.Forms.ComboBox()
-		Me.cbsem = New System.Windows.Forms.ComboBox()
-		Me.cbsub1 = New System.Windows.Forms.ComboBox()
-		Me.cbsub2 = New System.Windows.Forms.ComboBox()
-		Me.cbsub3 = New System.Windows.Forms.ComboBox()
-		Me.cbsub4 = New System.Windows.Forms.ComboBox()
-		Me.cbsub5 = New System.Windows.Forms.ComboBox()
-		Me.cbsub6 = New System.Windows.Forms.ComboBox()
+		Me.nmdept = New System.Windows.Forms.ComboBox()
+		Me.nmclass = New System.Windows.Forms.ComboBox()
+		Me.nmsem = New System.Windows.Forms.ComboBox()
+		Me.nmsub1 = New System.Windows.Forms.ComboBox()
+		Me.nmsub2 = New System.Windows.Forms.ComboBox()
+		Me.nmsub3 = New System.Windows.Forms.ComboBox()
+		Me.nmsub4 = New System.Windows.Forms.ComboBox()
+		Me.nmsub5 = New System.Windows.Forms.ComboBox()
+		Me.nmsub6 = New System.Windows.Forms.ComboBox()
 		Me.Label27 = New System.Windows.Forms.Label()
 		Me.Label28 = New System.Windows.Forms.Label()
-		Me.TextBox12 = New System.Windows.Forms.TextBox()
-		Me.TextBox13 = New System.Windows.Forms.TextBox()
-		Me.TextBox14 = New System.Windows.Forms.TextBox()
+		Me.nmbankac = New System.Windows.Forms.TextBox()
+		Me.nmammountpaid = New System.Windows.Forms.TextBox()
+		Me.nmtotalfees = New System.Windows.Forms.TextBox()
 		Me.Label29 = New System.Windows.Forms.Label()
 		Me.Label30 = New System.Windows.Forms.Label()
-		Me.btlogin = New System.Windows.Forms.Button()
-		Me.Button1 = New System.Windows.Forms.Button()
-		Me.cbscholarship = New System.Windows.Forms.ComboBox()
+		Me.nmbtlogin = New System.Windows.Forms.Button()
+		Me.nmbtcncel = New System.Windows.Forms.Button()
+		Me.nmscholership = New System.Windows.Forms.ComboBox()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -147,49 +147,49 @@ Partial Class newadmission
 		Me.Label6.TabIndex = 5
 		Me.Label6.Text = "Last Name"
 		'
-		'TextBox1
+		'nmfirstname
 		'
-		Me.TextBox1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-		Me.TextBox1.Location = New System.Drawing.Point(238, 74)
-		Me.TextBox1.Name = "TextBox1"
-		Me.TextBox1.Size = New System.Drawing.Size(247, 26)
-		Me.TextBox1.TabIndex = 1
+		Me.nmfirstname.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmfirstname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+		Me.nmfirstname.Location = New System.Drawing.Point(238, 74)
+		Me.nmfirstname.Name = "nmfirstname"
+		Me.nmfirstname.Size = New System.Drawing.Size(247, 26)
+		Me.nmfirstname.TabIndex = 1
 		'
-		'TextBox3
+		'nmmothername
 		'
-		Me.TextBox3.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-		Me.TextBox3.Location = New System.Drawing.Point(238, 167)
-		Me.TextBox3.Name = "TextBox3"
-		Me.TextBox3.Size = New System.Drawing.Size(247, 26)
-		Me.TextBox3.TabIndex = 8
+		Me.nmmothername.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmmothername.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+		Me.nmmothername.Location = New System.Drawing.Point(238, 167)
+		Me.nmmothername.Name = "nmmothername"
+		Me.nmmothername.Size = New System.Drawing.Size(247, 26)
+		Me.nmmothername.TabIndex = 8
 		'
-		'TextBox4
+		'nmfathername
 		'
-		Me.TextBox4.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-		Me.TextBox4.Location = New System.Drawing.Point(238, 137)
-		Me.TextBox4.Name = "TextBox4"
-		Me.TextBox4.Size = New System.Drawing.Size(247, 26)
-		Me.TextBox4.TabIndex = 9
+		Me.nmfathername.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmfathername.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+		Me.nmfathername.Location = New System.Drawing.Point(238, 137)
+		Me.nmfathername.Name = "nmfathername"
+		Me.nmfathername.Size = New System.Drawing.Size(247, 26)
+		Me.nmfathername.TabIndex = 9
 		'
-		'TextBox5
+		'nmlastname
 		'
-		Me.TextBox5.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-		Me.TextBox5.Location = New System.Drawing.Point(238, 106)
-		Me.TextBox5.Name = "TextBox5"
-		Me.TextBox5.Size = New System.Drawing.Size(247, 26)
-		Me.TextBox5.TabIndex = 2
+		Me.nmlastname.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmlastname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+		Me.nmlastname.Location = New System.Drawing.Point(238, 106)
+		Me.nmlastname.Name = "nmlastname"
+		Me.nmlastname.Size = New System.Drawing.Size(247, 26)
+		Me.nmlastname.TabIndex = 2
 		'
-		'DateTimePicker1
+		'nmdob
 		'
-		Me.DateTimePicker1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.DateTimePicker1.Location = New System.Drawing.Point(238, 196)
-		Me.DateTimePicker1.Name = "DateTimePicker1"
-		Me.DateTimePicker1.Size = New System.Drawing.Size(247, 26)
-		Me.DateTimePicker1.TabIndex = 11
+		Me.nmdob.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmdob.Location = New System.Drawing.Point(238, 196)
+		Me.nmdob.Name = "nmdob"
+		Me.nmdob.Size = New System.Drawing.Size(247, 26)
+		Me.nmdob.TabIndex = 11
 		'
 		'Label7
 		'
@@ -231,25 +231,25 @@ Partial Class newadmission
 		Me.Label10.TabIndex = 15
 		Me.Label10.Text = "Gender"
 		'
-		'txtbpa
+		'nmpa
 		'
-		Me.txtbpa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-		Me.txtbpa.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.txtbpa.Location = New System.Drawing.Point(238, 261)
-		Me.txtbpa.Name = "txtbpa"
-		Me.txtbpa.Size = New System.Drawing.Size(247, 85)
-		Me.txtbpa.TabIndex = 17
-		Me.txtbpa.Text = ""
+		Me.nmpa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+		Me.nmpa.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmpa.Location = New System.Drawing.Point(238, 261)
+		Me.nmpa.Name = "nmpa"
+		Me.nmpa.Size = New System.Drawing.Size(247, 85)
+		Me.nmpa.TabIndex = 17
+		Me.nmpa.Text = ""
 		'
-		'cbgender
+		'nmgender
 		'
-		Me.cbgender.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.cbgender.FormattingEnabled = True
-		Me.cbgender.Location = New System.Drawing.Point(238, 230)
-		Me.cbgender.Name = "cbgender"
-		Me.cbgender.Size = New System.Drawing.Size(247, 26)
-		Me.cbgender.TabIndex = 18
-		Me.cbgender.Text = "Select"
+		Me.nmgender.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmgender.FormattingEnabled = True
+		Me.nmgender.Location = New System.Drawing.Point(238, 230)
+		Me.nmgender.Name = "nmgender"
+		Me.nmgender.Size = New System.Drawing.Size(247, 26)
+		Me.nmgender.TabIndex = 18
+		Me.nmgender.Text = "Select"
 		'
 		'cbaddress
 		'
@@ -262,23 +262,23 @@ Partial Class newadmission
 		Me.cbaddress.Text = "Same as Pemanent address"
 		Me.cbaddress.UseVisualStyleBackColor = True
 		'
-		'txtbca
+		'nmca
 		'
-		Me.txtbca.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.txtbca.Location = New System.Drawing.Point(238, 386)
-		Me.txtbca.Name = "txtbca"
-		Me.txtbca.Size = New System.Drawing.Size(247, 85)
-		Me.txtbca.TabIndex = 20
-		Me.txtbca.Text = ""
+		Me.nmca.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmca.Location = New System.Drawing.Point(238, 386)
+		Me.nmca.Name = "nmca"
+		Me.nmca.Size = New System.Drawing.Size(247, 85)
+		Me.nmca.TabIndex = 20
+		Me.nmca.Text = ""
 		'
-		'TextBox2
+		'nmsmnumber
 		'
-		Me.TextBox2.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox2.Location = New System.Drawing.Point(238, 487)
-		Me.TextBox2.MaxLength = 10
-		Me.TextBox2.Name = "TextBox2"
-		Me.TextBox2.Size = New System.Drawing.Size(253, 26)
-		Me.TextBox2.TabIndex = 21
+		Me.nmsmnumber.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmsmnumber.Location = New System.Drawing.Point(238, 487)
+		Me.nmsmnumber.MaxLength = 10
+		Me.nmsmnumber.Name = "nmsmnumber"
+		Me.nmsmnumber.Size = New System.Drawing.Size(253, 26)
+		Me.nmsmnumber.TabIndex = 21
 		'
 		'Label11
 		'
@@ -290,14 +290,14 @@ Partial Class newadmission
 		Me.Label11.TabIndex = 22
 		Me.Label11.Text = "Parents' Mobile Number"
 		'
-		'TextBox6
+		'nmpmnumber
 		'
-		Me.TextBox6.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox6.Location = New System.Drawing.Point(238, 518)
-		Me.TextBox6.MaxLength = 10
-		Me.TextBox6.Name = "TextBox6"
-		Me.TextBox6.Size = New System.Drawing.Size(253, 26)
-		Me.TextBox6.TabIndex = 23
+		Me.nmpmnumber.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmpmnumber.Location = New System.Drawing.Point(238, 518)
+		Me.nmpmnumber.MaxLength = 10
+		Me.nmpmnumber.Name = "nmpmnumber"
+		Me.nmpmnumber.Size = New System.Drawing.Size(253, 26)
+		Me.nmpmnumber.TabIndex = 23
 		'
 		'Label12
 		'
@@ -359,53 +359,53 @@ Partial Class newadmission
 		Me.Label17.TabIndex = 29
 		Me.Label17.Text = "E-mail"
 		'
-		'TextBox7
+		'nmconveyance
 		'
-		Me.TextBox7.Location = New System.Drawing.Point(936, 128)
-		Me.TextBox7.Name = "TextBox7"
-		Me.TextBox7.Size = New System.Drawing.Size(237, 26)
-		Me.TextBox7.TabIndex = 30
+		Me.nmconveyance.Location = New System.Drawing.Point(936, 128)
+		Me.nmconveyance.Name = "nmconveyance"
+		Me.nmconveyance.Size = New System.Drawing.Size(237, 26)
+		Me.nmconveyance.TabIndex = 30
 		'
-		'TextBox8
+		'nmaincome
 		'
-		Me.TextBox8.Location = New System.Drawing.Point(936, 100)
-		Me.TextBox8.Name = "TextBox8"
-		Me.TextBox8.Size = New System.Drawing.Size(237, 26)
-		Me.TextBox8.TabIndex = 31
+		Me.nmaincome.Location = New System.Drawing.Point(936, 100)
+		Me.nmaincome.Name = "nmaincome"
+		Me.nmaincome.Size = New System.Drawing.Size(237, 26)
+		Me.nmaincome.TabIndex = 31
 		'
-		'TextBox9
+		'nmadnumber
 		'
-		Me.TextBox9.Location = New System.Drawing.Point(936, 74)
-		Me.TextBox9.MaxLength = 12
-		Me.TextBox9.Name = "TextBox9"
-		Me.TextBox9.Size = New System.Drawing.Size(239, 26)
-		Me.TextBox9.TabIndex = 32
+		Me.nmadnumber.Location = New System.Drawing.Point(936, 74)
+		Me.nmadnumber.MaxLength = 12
+		Me.nmadnumber.Name = "nmadnumber"
+		Me.nmadnumber.Size = New System.Drawing.Size(239, 26)
+		Me.nmadnumber.TabIndex = 32
 		'
-		'TextBox10
+		'nmreligion
 		'
-		Me.TextBox10.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox10.Location = New System.Drawing.Point(238, 606)
-		Me.TextBox10.Name = "TextBox10"
-		Me.TextBox10.Size = New System.Drawing.Size(253, 26)
-		Me.TextBox10.TabIndex = 33
+		Me.nmreligion.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmreligion.Location = New System.Drawing.Point(238, 606)
+		Me.nmreligion.Name = "nmreligion"
+		Me.nmreligion.Size = New System.Drawing.Size(253, 26)
+		Me.nmreligion.TabIndex = 33
 		'
-		'TextBox11
+		'nmemail
 		'
-		Me.TextBox11.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.TextBox11.Location = New System.Drawing.Point(238, 549)
-		Me.TextBox11.Name = "TextBox11"
-		Me.TextBox11.Size = New System.Drawing.Size(253, 26)
-		Me.TextBox11.TabIndex = 34
+		Me.nmemail.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmemail.Location = New System.Drawing.Point(238, 549)
+		Me.nmemail.Name = "nmemail"
+		Me.nmemail.Size = New System.Drawing.Size(253, 26)
+		Me.nmemail.TabIndex = 34
 		'
-		'ComboBox2
+		'nmcbcaste
 		'
-		Me.ComboBox2.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.ComboBox2.FormattingEnabled = True
-		Me.ComboBox2.Location = New System.Drawing.Point(238, 577)
-		Me.ComboBox2.Name = "ComboBox2"
-		Me.ComboBox2.Size = New System.Drawing.Size(253, 26)
-		Me.ComboBox2.TabIndex = 35
-		Me.ComboBox2.Text = "Select"
+		Me.nmcbcaste.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmcbcaste.FormattingEnabled = True
+		Me.nmcbcaste.Location = New System.Drawing.Point(238, 577)
+		Me.nmcbcaste.Name = "nmcbcaste"
+		Me.nmcbcaste.Size = New System.Drawing.Size(253, 26)
+		Me.nmcbcaste.TabIndex = 35
+		Me.nmcbcaste.Text = "Select"
 		'
 		'Label18
 		'
@@ -497,86 +497,86 @@ Partial Class newadmission
 		Me.Label26.TabIndex = 44
 		Me.Label26.Text = "Department"
 		'
-		'cbdept
+		'nmdept
 		'
-		Me.cbdept.FormattingEnabled = True
-		Me.cbdept.Location = New System.Drawing.Point(936, 157)
-		Me.cbdept.Name = "cbdept"
-		Me.cbdept.Size = New System.Drawing.Size(237, 26)
-		Me.cbdept.TabIndex = 45
-		Me.cbdept.Text = "Select"
+		Me.nmdept.FormattingEnabled = True
+		Me.nmdept.Location = New System.Drawing.Point(936, 157)
+		Me.nmdept.Name = "nmdept"
+		Me.nmdept.Size = New System.Drawing.Size(237, 26)
+		Me.nmdept.TabIndex = 45
+		Me.nmdept.Text = "Select"
 		'
-		'cbclass
+		'nmclass
 		'
-		Me.cbclass.FormattingEnabled = True
-		Me.cbclass.Location = New System.Drawing.Point(936, 185)
-		Me.cbclass.Name = "cbclass"
-		Me.cbclass.Size = New System.Drawing.Size(237, 26)
-		Me.cbclass.TabIndex = 46
-		Me.cbclass.Text = "Select"
+		Me.nmclass.FormattingEnabled = True
+		Me.nmclass.Location = New System.Drawing.Point(936, 185)
+		Me.nmclass.Name = "nmclass"
+		Me.nmclass.Size = New System.Drawing.Size(237, 26)
+		Me.nmclass.TabIndex = 46
+		Me.nmclass.Text = "Select"
 		'
-		'cbsem
+		'nmsem
 		'
-		Me.cbsem.FormattingEnabled = True
-		Me.cbsem.Location = New System.Drawing.Point(936, 216)
-		Me.cbsem.Name = "cbsem"
-		Me.cbsem.Size = New System.Drawing.Size(237, 26)
-		Me.cbsem.TabIndex = 47
-		Me.cbsem.Text = "Select"
+		Me.nmsem.FormattingEnabled = True
+		Me.nmsem.Location = New System.Drawing.Point(936, 216)
+		Me.nmsem.Name = "nmsem"
+		Me.nmsem.Size = New System.Drawing.Size(237, 26)
+		Me.nmsem.TabIndex = 47
+		Me.nmsem.Text = "Select"
 		'
-		'cbsub1
+		'nmsub1
 		'
-		Me.cbsub1.FormattingEnabled = True
-		Me.cbsub1.Location = New System.Drawing.Point(936, 245)
-		Me.cbsub1.Name = "cbsub1"
-		Me.cbsub1.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub1.TabIndex = 48
-		Me.cbsub1.Text = "Select"
+		Me.nmsub1.FormattingEnabled = True
+		Me.nmsub1.Location = New System.Drawing.Point(936, 245)
+		Me.nmsub1.Name = "nmsub1"
+		Me.nmsub1.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub1.TabIndex = 48
+		Me.nmsub1.Text = "Select"
 		'
-		'cbsub2
+		'nmsub2
 		'
-		Me.cbsub2.FormattingEnabled = True
-		Me.cbsub2.Location = New System.Drawing.Point(936, 277)
-		Me.cbsub2.Name = "cbsub2"
-		Me.cbsub2.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub2.TabIndex = 49
-		Me.cbsub2.Text = "Select"
+		Me.nmsub2.FormattingEnabled = True
+		Me.nmsub2.Location = New System.Drawing.Point(936, 277)
+		Me.nmsub2.Name = "nmsub2"
+		Me.nmsub2.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub2.TabIndex = 49
+		Me.nmsub2.Text = "Select"
 		'
-		'cbsub3
+		'nmsub3
 		'
-		Me.cbsub3.FormattingEnabled = True
-		Me.cbsub3.Location = New System.Drawing.Point(936, 305)
-		Me.cbsub3.Name = "cbsub3"
-		Me.cbsub3.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub3.TabIndex = 50
-		Me.cbsub3.Text = "Select"
+		Me.nmsub3.FormattingEnabled = True
+		Me.nmsub3.Location = New System.Drawing.Point(936, 305)
+		Me.nmsub3.Name = "nmsub3"
+		Me.nmsub3.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub3.TabIndex = 50
+		Me.nmsub3.Text = "Select"
 		'
-		'cbsub4
+		'nmsub4
 		'
-		Me.cbsub4.FormattingEnabled = True
-		Me.cbsub4.Location = New System.Drawing.Point(936, 330)
-		Me.cbsub4.Name = "cbsub4"
-		Me.cbsub4.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub4.TabIndex = 51
-		Me.cbsub4.Text = "Select"
+		Me.nmsub4.FormattingEnabled = True
+		Me.nmsub4.Location = New System.Drawing.Point(936, 330)
+		Me.nmsub4.Name = "nmsub4"
+		Me.nmsub4.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub4.TabIndex = 51
+		Me.nmsub4.Text = "Select"
 		'
-		'cbsub5
+		'nmsub5
 		'
-		Me.cbsub5.FormattingEnabled = True
-		Me.cbsub5.Location = New System.Drawing.Point(936, 357)
-		Me.cbsub5.Name = "cbsub5"
-		Me.cbsub5.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub5.TabIndex = 52
-		Me.cbsub5.Text = "Select"
+		Me.nmsub5.FormattingEnabled = True
+		Me.nmsub5.Location = New System.Drawing.Point(936, 357)
+		Me.nmsub5.Name = "nmsub5"
+		Me.nmsub5.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub5.TabIndex = 52
+		Me.nmsub5.Text = "Select"
 		'
-		'cbsub6
+		'nmsub6
 		'
-		Me.cbsub6.FormattingEnabled = True
-		Me.cbsub6.Location = New System.Drawing.Point(936, 386)
-		Me.cbsub6.Name = "cbsub6"
-		Me.cbsub6.Size = New System.Drawing.Size(237, 26)
-		Me.cbsub6.TabIndex = 53
-		Me.cbsub6.Text = "Select"
+		Me.nmsub6.FormattingEnabled = True
+		Me.nmsub6.Location = New System.Drawing.Point(936, 386)
+		Me.nmsub6.Name = "nmsub6"
+		Me.nmsub6.Size = New System.Drawing.Size(237, 26)
+		Me.nmsub6.TabIndex = 53
+		Me.nmsub6.Text = "Select"
 		'
 		'Label27
 		'
@@ -598,26 +598,26 @@ Partial Class newadmission
 		Me.Label28.TabIndex = 55
 		Me.Label28.Text = "Bank Account Number"
 		'
-		'TextBox12
+		'nmbankac
 		'
-		Me.TextBox12.Location = New System.Drawing.Point(936, 452)
-		Me.TextBox12.Name = "TextBox12"
-		Me.TextBox12.Size = New System.Drawing.Size(237, 26)
-		Me.TextBox12.TabIndex = 58
+		Me.nmbankac.Location = New System.Drawing.Point(936, 452)
+		Me.nmbankac.Name = "nmbankac"
+		Me.nmbankac.Size = New System.Drawing.Size(237, 26)
+		Me.nmbankac.TabIndex = 58
 		'
-		'TextBox13
+		'nmammountpaid
 		'
-		Me.TextBox13.Location = New System.Drawing.Point(936, 511)
-		Me.TextBox13.Name = "TextBox13"
-		Me.TextBox13.Size = New System.Drawing.Size(237, 26)
-		Me.TextBox13.TabIndex = 59
+		Me.nmammountpaid.Location = New System.Drawing.Point(936, 511)
+		Me.nmammountpaid.Name = "nmammountpaid"
+		Me.nmammountpaid.Size = New System.Drawing.Size(237, 26)
+		Me.nmammountpaid.TabIndex = 59
 		'
-		'TextBox14
+		'nmtotalfees
 		'
-		Me.TextBox14.Location = New System.Drawing.Point(936, 482)
-		Me.TextBox14.Name = "TextBox14"
-		Me.TextBox14.Size = New System.Drawing.Size(237, 26)
-		Me.TextBox14.TabIndex = 60
+		Me.nmtotalfees.Location = New System.Drawing.Point(936, 482)
+		Me.nmtotalfees.Name = "nmtotalfees"
+		Me.nmtotalfees.Size = New System.Drawing.Size(237, 26)
+		Me.nmtotalfees.TabIndex = 60
 		'
 		'Label29
 		'
@@ -639,52 +639,52 @@ Partial Class newadmission
 		Me.Label30.TabIndex = 62
 		Me.Label30.Text = "Total Fees"
 		'
-		'btlogin
+		'nmbtlogin
 		'
-		Me.btlogin.BackColor = System.Drawing.Color.Teal
-		Me.btlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-		Me.btlogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
-		Me.btlogin.FlatAppearance.BorderSize = 0
-		Me.btlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.btlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
-		Me.btlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-		Me.btlogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.btlogin.ForeColor = System.Drawing.SystemColors.ButtonFace
-		Me.btlogin.Location = New System.Drawing.Point(382, 644)
-		Me.btlogin.Margin = New System.Windows.Forms.Padding(0)
-		Me.btlogin.Name = "btlogin"
-		Me.btlogin.Size = New System.Drawing.Size(155, 39)
-		Me.btlogin.TabIndex = 65
-		Me.btlogin.Text = "Submit"
-		Me.btlogin.UseVisualStyleBackColor = False
+		Me.nmbtlogin.BackColor = System.Drawing.Color.Teal
+		Me.nmbtlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+		Me.nmbtlogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
+		Me.nmbtlogin.FlatAppearance.BorderSize = 0
+		Me.nmbtlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+		Me.nmbtlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
+		Me.nmbtlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+		Me.nmbtlogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmbtlogin.ForeColor = System.Drawing.SystemColors.ButtonFace
+		Me.nmbtlogin.Location = New System.Drawing.Point(382, 644)
+		Me.nmbtlogin.Margin = New System.Windows.Forms.Padding(0)
+		Me.nmbtlogin.Name = "nmbtlogin"
+		Me.nmbtlogin.Size = New System.Drawing.Size(155, 39)
+		Me.nmbtlogin.TabIndex = 65
+		Me.nmbtlogin.Text = "Submit"
+		Me.nmbtlogin.UseVisualStyleBackColor = False
 		'
-		'Button1
+		'nmbtcncel
 		'
-		Me.Button1.BackColor = System.Drawing.Color.Teal
-		Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-		Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
-		Me.Button1.FlatAppearance.BorderSize = 0
-		Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
-		Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-		Me.Button1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-		Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-		Me.Button1.Location = New System.Drawing.Point(602, 644)
-		Me.Button1.Margin = New System.Windows.Forms.Padding(0)
-		Me.Button1.Name = "Button1"
-		Me.Button1.Size = New System.Drawing.Size(155, 39)
-		Me.Button1.TabIndex = 66
-		Me.Button1.Text = "Cancel"
-		Me.Button1.UseVisualStyleBackColor = False
+		Me.nmbtcncel.BackColor = System.Drawing.Color.Teal
+		Me.nmbtcncel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+		Me.nmbtcncel.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
+		Me.nmbtcncel.FlatAppearance.BorderSize = 0
+		Me.nmbtcncel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+		Me.nmbtcncel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
+		Me.nmbtcncel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+		Me.nmbtcncel.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+		Me.nmbtcncel.ForeColor = System.Drawing.SystemColors.ButtonFace
+		Me.nmbtcncel.Location = New System.Drawing.Point(602, 644)
+		Me.nmbtcncel.Margin = New System.Windows.Forms.Padding(0)
+		Me.nmbtcncel.Name = "nmbtcncel"
+		Me.nmbtcncel.Size = New System.Drawing.Size(155, 39)
+		Me.nmbtcncel.TabIndex = 66
+		Me.nmbtcncel.Text = "Cancel"
+		Me.nmbtcncel.UseVisualStyleBackColor = False
 		'
-		'cbscholarship
+		'nmscholership
 		'
-		Me.cbscholarship.FormattingEnabled = True
-		Me.cbscholarship.Location = New System.Drawing.Point(936, 419)
-		Me.cbscholarship.Name = "cbscholarship"
-		Me.cbscholarship.Size = New System.Drawing.Size(237, 26)
-		Me.cbscholarship.TabIndex = 67
-		Me.cbscholarship.Text = "Select"
+		Me.nmscholership.FormattingEnabled = True
+		Me.nmscholership.Location = New System.Drawing.Point(936, 419)
+		Me.nmscholership.Name = "nmscholership"
+		Me.nmscholership.Size = New System.Drawing.Size(237, 26)
+		Me.nmscholership.TabIndex = 67
+		Me.nmscholership.Text = "Select"
 		'
 		'newadmission
 		'
@@ -692,25 +692,25 @@ Partial Class newadmission
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.GhostWhite
 		Me.ClientSize = New System.Drawing.Size(1212, 699)
-		Me.Controls.Add(Me.cbscholarship)
-		Me.Controls.Add(Me.Button1)
-		Me.Controls.Add(Me.btlogin)
+		Me.Controls.Add(Me.nmscholership)
+		Me.Controls.Add(Me.nmbtcncel)
+		Me.Controls.Add(Me.nmbtlogin)
 		Me.Controls.Add(Me.Label30)
 		Me.Controls.Add(Me.Label29)
-		Me.Controls.Add(Me.TextBox14)
-		Me.Controls.Add(Me.TextBox13)
-		Me.Controls.Add(Me.TextBox12)
+		Me.Controls.Add(Me.nmtotalfees)
+		Me.Controls.Add(Me.nmammountpaid)
+		Me.Controls.Add(Me.nmbankac)
 		Me.Controls.Add(Me.Label28)
 		Me.Controls.Add(Me.Label27)
-		Me.Controls.Add(Me.cbsub6)
-		Me.Controls.Add(Me.cbsub5)
-		Me.Controls.Add(Me.cbsub4)
-		Me.Controls.Add(Me.cbsub3)
-		Me.Controls.Add(Me.cbsub2)
-		Me.Controls.Add(Me.cbsub1)
-		Me.Controls.Add(Me.cbsem)
-		Me.Controls.Add(Me.cbclass)
-		Me.Controls.Add(Me.cbdept)
+		Me.Controls.Add(Me.nmsub6)
+		Me.Controls.Add(Me.nmsub5)
+		Me.Controls.Add(Me.nmsub4)
+		Me.Controls.Add(Me.nmsub3)
+		Me.Controls.Add(Me.nmsub2)
+		Me.Controls.Add(Me.nmsub1)
+		Me.Controls.Add(Me.nmsem)
+		Me.Controls.Add(Me.nmclass)
+		Me.Controls.Add(Me.nmdept)
 		Me.Controls.Add(Me.Label26)
 		Me.Controls.Add(Me.Label25)
 		Me.Controls.Add(Me.Label24)
@@ -720,34 +720,34 @@ Partial Class newadmission
 		Me.Controls.Add(Me.Label20)
 		Me.Controls.Add(Me.Label19)
 		Me.Controls.Add(Me.Label18)
-		Me.Controls.Add(Me.ComboBox2)
-		Me.Controls.Add(Me.TextBox11)
-		Me.Controls.Add(Me.TextBox10)
-		Me.Controls.Add(Me.TextBox9)
-		Me.Controls.Add(Me.TextBox8)
-		Me.Controls.Add(Me.TextBox7)
+		Me.Controls.Add(Me.nmcbcaste)
+		Me.Controls.Add(Me.nmemail)
+		Me.Controls.Add(Me.nmreligion)
+		Me.Controls.Add(Me.nmadnumber)
+		Me.Controls.Add(Me.nmaincome)
+		Me.Controls.Add(Me.nmconveyance)
 		Me.Controls.Add(Me.Label17)
 		Me.Controls.Add(Me.Label16)
 		Me.Controls.Add(Me.Label15)
 		Me.Controls.Add(Me.Label14)
 		Me.Controls.Add(Me.Label13)
 		Me.Controls.Add(Me.Label12)
-		Me.Controls.Add(Me.TextBox6)
+		Me.Controls.Add(Me.nmpmnumber)
 		Me.Controls.Add(Me.Label11)
-		Me.Controls.Add(Me.TextBox2)
-		Me.Controls.Add(Me.txtbca)
+		Me.Controls.Add(Me.nmsmnumber)
+		Me.Controls.Add(Me.nmca)
 		Me.Controls.Add(Me.cbaddress)
-		Me.Controls.Add(Me.cbgender)
-		Me.Controls.Add(Me.txtbpa)
+		Me.Controls.Add(Me.nmgender)
+		Me.Controls.Add(Me.nmpa)
 		Me.Controls.Add(Me.Label10)
 		Me.Controls.Add(Me.Label9)
 		Me.Controls.Add(Me.Label8)
 		Me.Controls.Add(Me.Label7)
-		Me.Controls.Add(Me.DateTimePicker1)
-		Me.Controls.Add(Me.TextBox5)
-		Me.Controls.Add(Me.TextBox4)
-		Me.Controls.Add(Me.TextBox3)
-		Me.Controls.Add(Me.TextBox1)
+		Me.Controls.Add(Me.nmdob)
+		Me.Controls.Add(Me.nmlastname)
+		Me.Controls.Add(Me.nmfathername)
+		Me.Controls.Add(Me.nmmothername)
+		Me.Controls.Add(Me.nmfirstname)
 		Me.Controls.Add(Me.Label6)
 		Me.Controls.Add(Me.Label5)
 		Me.Controls.Add(Me.Label4)
@@ -772,34 +772,34 @@ Partial Class newadmission
 	Friend WithEvents Label4 As Label
 	Friend WithEvents Label5 As Label
 	Friend WithEvents Label6 As Label
-	Friend WithEvents TextBox1 As TextBox
-	Friend WithEvents TextBox3 As TextBox
-	Friend WithEvents TextBox4 As TextBox
-	Friend WithEvents TextBox5 As TextBox
-	Friend WithEvents DateTimePicker1 As DateTimePicker
+	Friend WithEvents nmfirstname As TextBox
+	Friend WithEvents nmmothername As TextBox
+	Friend WithEvents nmfathername As TextBox
+	Friend WithEvents nmlastname As TextBox
+	Friend WithEvents nmdob As DateTimePicker
 	Friend WithEvents Label7 As Label
 	Friend WithEvents Label8 As Label
 	Friend WithEvents Label9 As Label
 	Friend WithEvents Label10 As Label
-	Friend WithEvents txtbpa As RichTextBox
-	Friend WithEvents cbgender As ComboBox
+	Friend WithEvents nmpa As RichTextBox
+	Friend WithEvents nmgender As ComboBox
 	Friend WithEvents cbaddress As CheckBox
-	Friend WithEvents txtbca As RichTextBox
-	Friend WithEvents TextBox2 As TextBox
+	Friend WithEvents nmca As RichTextBox
+	Friend WithEvents nmsmnumber As TextBox
 	Friend WithEvents Label11 As Label
-	Friend WithEvents TextBox6 As TextBox
+	Friend WithEvents nmpmnumber As TextBox
 	Friend WithEvents Label12 As Label
 	Friend WithEvents Label13 As Label
 	Friend WithEvents Label14 As Label
 	Friend WithEvents Label15 As Label
 	Friend WithEvents Label16 As Label
 	Friend WithEvents Label17 As Label
-	Friend WithEvents TextBox7 As TextBox
-	Friend WithEvents TextBox8 As TextBox
-	Friend WithEvents TextBox9 As TextBox
-	Friend WithEvents TextBox10 As TextBox
-	Friend WithEvents TextBox11 As TextBox
-	Friend WithEvents ComboBox2 As ComboBox
+	Friend WithEvents nmconveyance As TextBox
+	Friend WithEvents nmaincome As TextBox
+	Friend WithEvents nmadnumber As TextBox
+	Friend WithEvents nmreligion As TextBox
+	Friend WithEvents nmemail As TextBox
+	Friend WithEvents nmcbcaste As ComboBox
 	Friend WithEvents Label18 As Label
 	Friend WithEvents Label19 As Label
 	Friend WithEvents Label20 As Label
@@ -809,23 +809,23 @@ Partial Class newadmission
 	Friend WithEvents Label24 As Label
 	Friend WithEvents Label25 As Label
 	Friend WithEvents Label26 As Label
-	Friend WithEvents cbdept As ComboBox
-	Friend WithEvents cbclass As ComboBox
-	Friend WithEvents cbsem As ComboBox
-	Friend WithEvents cbsub1 As ComboBox
-	Friend WithEvents cbsub2 As ComboBox
-	Friend WithEvents cbsub3 As ComboBox
-	Friend WithEvents cbsub4 As ComboBox
-	Friend WithEvents cbsub5 As ComboBox
-	Friend WithEvents cbsub6 As ComboBox
+	Friend WithEvents nmdept As ComboBox
+	Friend WithEvents nmclass As ComboBox
+	Friend WithEvents nmsem As ComboBox
+	Friend WithEvents nmsub1 As ComboBox
+	Friend WithEvents nmsub2 As ComboBox
+	Friend WithEvents nmsub3 As ComboBox
+	Friend WithEvents nmsub4 As ComboBox
+	Friend WithEvents nmsub5 As ComboBox
+	Friend WithEvents nmsub6 As ComboBox
 	Friend WithEvents Label27 As Label
 	Friend WithEvents Label28 As Label
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
+    Friend WithEvents nmbankac As TextBox
+    Friend WithEvents nmammountpaid As TextBox
+    Friend WithEvents nmtotalfees As TextBox
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents btlogin As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents cbscholarship As ComboBox
+    Friend WithEvents nmbtlogin As Button
+    Friend WithEvents nmbtcncel As Button
+    Friend WithEvents nmscholership As ComboBox
 End Class
