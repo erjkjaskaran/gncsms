@@ -19,6 +19,10 @@ Public Class newadmission
 		cbgender.Items.Add("Male")
 		cbgender.Items.Add("Female")
 		cbgender.Items.Add("Transgender")
+		cbscholarship.Items.Add("Yes")
+		cbscholarship.Items.Add("No")
+
+
 	End Sub
 
 	Private Sub Cbdept_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbdept.SelectedIndexChanged
@@ -76,6 +80,10 @@ Public Class newadmission
     End Sub
 
 	Private Sub ComboBox5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsem.SelectedIndexChanged
+
+	End Sub
+
+	Private Sub scholarship_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbscholarship.SelectedIndexChanged
 
 	End Sub
 End Class
