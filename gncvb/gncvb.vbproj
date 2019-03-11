@@ -120,10 +120,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>GNCDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="list pending fees.Designer.vb">
-      <DependentUpon>list pending fees.vb</DependentUpon>
+    <Compile Include="list_pending_fees.Designer.vb">
+      <DependentUpon>list_pending_fees.vb</DependentUpon>
     </Compile>
-    <Compile Include="list pending fees.vb">
+    <Compile Include="list_pending_fees.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="login.vb">
@@ -174,8 +174,8 @@
     <EmbeddedResource Include="Errorbox.resx">
       <DependentUpon>Errorbox.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="list pending fees.resx">
-      <DependentUpon>list pending fees.vb</DependentUpon>
+    <EmbeddedResource Include="list_pending_fees.resx">
+      <DependentUpon>list_pending_fees.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>

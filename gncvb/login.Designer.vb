@@ -97,7 +97,7 @@ Partial Class Login
 		Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(236, Byte), Integer), CType(CType(240, Byte), Integer), CType(CType(241, Byte), Integer))
 		Me.Panel1.Controls.Add(Me.un)
 		Me.Panel1.Location = New System.Drawing.Point(67, 127)
-		Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
 		Me.Panel1.Name = "Panel1"
 		Me.Panel1.Size = New System.Drawing.Size(333, 62)
 		Me.Panel1.TabIndex = 4
@@ -108,7 +108,7 @@ Partial Class Login
 		Me.Panel2.Controls.Add(Me.up)
 		Me.Panel2.Controls.Add(Me.TextBox1)
 		Me.Panel2.Location = New System.Drawing.Point(67, 230)
-		Me.Panel2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Panel2.Margin = New System.Windows.Forms.Padding(4)
 		Me.Panel2.Name = "Panel2"
 		Me.Panel2.Size = New System.Drawing.Size(333, 62)
 		Me.Panel2.TabIndex = 5
@@ -148,6 +148,7 @@ Partial Class Login
 		'Label2
 		'
 		Me.Label2.AutoSize = True
+		Me.Label2.BackColor = System.Drawing.Color.GhostWhite
 		Me.Label2.ForeColor = System.Drawing.Color.DimGray
 		Me.Label2.Location = New System.Drawing.Point(437, 9)
 		Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
@@ -169,7 +170,7 @@ Partial Class Login
 		Me.Controls.Add(Me.btlogin)
 		Me.Controls.Add(Me.Label1)
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-		Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Margin = New System.Windows.Forms.Padding(4)
 		Me.Name = "Login"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "LOGIN"
