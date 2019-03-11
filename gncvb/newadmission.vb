@@ -3,8 +3,9 @@ Imports gncvb.Db
 
 Public Class newadmission
 	Dim dr As OleDbDataReader
-	Dim sql As String
-	Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Dim sql As String
+    Dim s1, s2, s3, s4, s5, s6 As String
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 		Me.Hide()
 		main1.Show()
 
@@ -80,51 +81,111 @@ Public Class newadmission
     End Sub
 
     Private Sub cbsub1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub1.SelectedIndexChanged
+        s2 = cbsub2.Text
+        s3 = cbsub3.Text
+        s4 = cbsub4.Text
+        s5 = cbsub5.Text
+        s6 = cbsub6.Text
         cbsub2.Items.Remove(cbsub1.Text)
         cbsub3.Items.Remove(cbsub1.Text)
         cbsub4.Items.Remove(cbsub1.Text)
         cbsub5.Items.Remove(cbsub1.Text)
         cbsub6.Items.Remove(cbsub1.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub6.Text = s6
     End Sub
 
     Private Sub cbsub2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub2.SelectedIndexChanged
-        cbsub1.Items.Remove(cbsub1.Text)
-        cbsub3.Items.Remove(cbsub1.Text)
-        cbsub4.Items.Remove(cbsub1.Text)
-        cbsub5.Items.Remove(cbsub1.Text)
-        cbsub6.Items.Remove(cbsub1.Text)
+        s1 = cbsub1.Text
+        s3 = cbsub3.Text
+        s4 = cbsub4.Text
+        s5 = cbsub5.Text
+        s6 = cbsub6.Text
+        cbsub1.Items.Remove(cbsub2.Text)
+        cbsub3.Items.Remove(cbsub2.Text)
+        cbsub4.Items.Remove(cbsub2.Text)
+        cbsub5.Items.Remove(cbsub2.Text)
+        cbsub6.Items.Remove(cbsub2.Text)
+        cbsub1.Text = s1
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub6.Text = s6
     End Sub
 
     Private Sub cbsub3_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub3.SelectedIndexChanged
-        cbsub1.Items.Remove(cbsub1.Text)
-        cbsub2.Items.Remove(cbsub1.Text)
-        cbsub4.Items.Remove(cbsub1.Text)
-        cbsub5.Items.Remove(cbsub1.Text)
-        cbsub6.Items.Remove(cbsub1.Text)
+        cbsub2.Text = s2
+        cbsub1.Text = s1
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub6.Text = s6
+        cbsub1.Items.Remove(cbsub3.Text)
+        cbsub2.Items.Remove(cbsub3.Text)
+        cbsub4.Items.Remove(cbsub3.Text)
+        cbsub5.Items.Remove(cbsub3.Text)
+        cbsub6.Items.Remove(cbsub3.Text)
+        cbsub2.Text = s2
+        cbsub1.Text = s1
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub6.Text = s6
     End Sub
 
     Private Sub cbsub4_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub4.SelectedIndexChanged
-        cbsub1.Items.Remove(cbsub1.Text)
-        cbsub2.Items.Remove(cbsub1.Text)
-        cbsub3.Items.Remove(cbsub1.Text)
-        cbsub5.Items.Remove(cbsub1.Text)
-        cbsub6.Items.Remove(cbsub1.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub1.Text = s1
+        cbsub5.Text = s5
+        cbsub6.Text = s6
+        cbsub1.Items.Remove(cbsub4.Text)
+        cbsub2.Items.Remove(cbsub4.Text)
+        cbsub3.Items.Remove(cbsub4.Text)
+        cbsub5.Items.Remove(cbsub4.Text)
+        cbsub6.Items.Remove(cbsub4.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub1.Text = s1
+        cbsub5.Text = s5
+        cbsub6.Text = s6
     End Sub
 
     Private Sub cbsub5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub5.SelectedIndexChanged
-        cbsub1.Items.Remove(cbsub1.Text)
-        cbsub2.Items.Remove(cbsub1.Text)
-        cbsub3.Items.Remove(cbsub1.Text)
-        cbsub4.Items.Remove(cbsub1.Text)
-        cbsub6.Items.Remove(cbsub1.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub1.Text = s1
+        cbsub6.Text = s6
+        cbsub1.Items.Remove(cbsub5.Text)
+        cbsub2.Items.Remove(cbsub5.Text)
+        cbsub3.Items.Remove(cbsub5.Text)
+        cbsub4.Items.Remove(cbsub5.Text)
+        cbsub6.Items.Remove(cbsub5.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub1.Text = s1
+        cbsub6.Text = s6
     End Sub
 
     Private Sub cbsub6_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsub6.SelectedIndexChanged
-        cbsub1.Items.Remove(cbsub1.Text)
-        cbsub2.Items.Remove(cbsub1.Text)
-        cbsub3.Items.Remove(cbsub1.Text)
-        cbsub4.Items.Remove(cbsub1.Text)
-        cbsub5.Items.Remove(cbsub1.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub1.Text = s1
+        cbsub1.Items.Remove(cbsub6.Text)
+        cbsub2.Items.Remove(cbsub6.Text)
+        cbsub3.Items.Remove(cbsub6.Text)
+        cbsub4.Items.Remove(cbsub6.Text)
+        cbsub5.Items.Remove(cbsub6.Text)
+        cbsub2.Text = s2
+        cbsub3.Text = s3
+        cbsub4.Text = s4
+        cbsub5.Text = s5
+        cbsub1.Text = s1
 
     End Sub
 End Class
