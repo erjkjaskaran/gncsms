@@ -19,6 +19,11 @@ Module Db
     Public Function Updateqry(a)
         ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\my pc\\source\\repos\\gncvb\\gncvb\\GNC.mdb"
         Dim Connection As New OleDbConnection(ConnectionString)
-		Connection.Open()
+        Connection.Open()
+        cmd1 = New OleDb.OleDbCommand(a, Connection)
+        cmd1.ExecuteNonQuery()
+        Connection.Close()
+#Disable Warning BC42105 ' Function doesn't return a value on all code paths
     End Function
+#Enable Warning BC42105 ' Function doesn't return a value on all code paths
 End Module

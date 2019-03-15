@@ -4,7 +4,7 @@ Imports gncvb.Db
 Public Class newadmission
     Dim dr As OleDbDataReader
     Dim sql As String
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles nmbtcncel.Click
         Me.Hide()
         main1.Show()
 
@@ -19,8 +19,12 @@ Public Class newadmission
         nmgender.Items.Add("Male")
         nmgender.Items.Add("Female")
         nmgender.Items.Add("Transgender")
-        nmscholership.Items.Add("Yes")
-        nmscholership.Items.Add("No")
+        nmscholarship.Items.Add("Yes")
+        nmscholarship.Items.Add("No")
+        nmcbcaste.Items.Add("General")
+        nmcbcaste.Items.Add("SC/ST")
+        nmcbcaste.Items.Add("BC")
+        nmcbcaste.Items.Add("OBC")
 
 
     End Sub
@@ -50,36 +54,40 @@ Public Class newadmission
 
     Private Sub cbclass_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmclass.SelectedIndexChanged
         nmsem.Items.Clear()
-        nmsub1.Items.Clear()
-        nmsub2.Items.Clear()
-        nmsub3.Items.Clear()
-        nmsub4.Items.Clear()
-        nmsub5.Items.Clear()
-        nmsub6.Items.Clear()
+
         sql = "select sem from courses where class='" + nmclass.Text + "'"
         dr = Db.Selectqry(sql)
         dr.Read()
         Dim a As Integer
         a = dr("sem")
-        Console.WriteLine(a)
         For i = 1 To a
-            cbsem.Items.Add(i)
+            nmsem.Items.Add(i)
         Next
-        sql = "select subject from course_1 where class='" + cbclass.Text + "'"
-        dr = Db.Selectqry(sql)
-        While (dr.Read())
-            cbsub1.Items.Add(dr("subject"))
-            cbsub2.Items.Add(dr("subject"))
-            cbsub3.Items.Add(dr("subject"))
-            cbsub4.Items.Add(dr("subject"))
-            cbsub5.Items.Add(dr("subject"))
-            cbsub6.Items.Add(dr("subject"))
-        End While
-
-
     End Sub
 
-    Private Sub ComboBox5_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbsem.SelectedIndexChanged
+    Private Sub nmsem_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmsem.SelectedIndexChanged
+        nmsub.Items.Clear()
+        sql = "select subject from course_1 where sem=" + nmsem.Text + " and class='" + nmclass.Text + "'"
+        dr = Db.Selectqry(sql)
+        While (dr.Read())
+            nmsub.Items.Add(dr("subject"))
+        End While
+    End Sub
+
+    Private Sub nmbtlogin_Click(sender As Object, e As EventArgs) Handles nmbtlogin.Click
+        Dim dt As String = nmdob.ToString
+        Dim a As Int32
+        a = dt.Length
+        Console.WriteLine(a)
+        Dim dts As String = dt.Substring(44, 10)
+
+        Console.WriteLine(dts)
+
+        sql = "insert into s_info values (" + nmcroll.Text + ",""" + nmfirstname.Text + """,""" + nmlastname.Text + """,""" + nmfathername.Text + """,""" + nmmothername.Text + """,""" + nmdob.ToString() + """,""" + nmgender.Text + """,""" + nmpa.Text + """,""" + nmca.Text + """," + nmsmnumber.Text + "," + nmpmnumber.Text + ",""" + nmemail.Text + """,""" + nmcbcaste.Text + """,""" + nmreligion.Text + """,""" + nmnational.Text + """," + nmadnumber.Text + "," + nmaincome.Text + ",""" + nmconveyance.Text + """,""" + nmdept.Text + """,""" + nmclass.Text + """,""" + nmsem.Text + """)"
+        Db.Updateqry(sql)
+        For Each item1 As String In nmsub.CheckedItems
+            sql = "insert into stu_subject values (" + nmcroll.Text + ",""" + nmsem.Text + """," + item1 + ")"
+        Next
 
     End Sub
 End Class

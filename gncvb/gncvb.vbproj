@@ -115,6 +115,12 @@
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="rough.Designer.vb">
+      <DependentUpon>rough.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rough.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GNCDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Errorbox.resx">
       <DependentUpon>Errorbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rough.resx">
+      <DependentUpon>rough.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="list_pending_fees.resx">
       <DependentUpon>list_pending_fees.vb</DependentUpon>
