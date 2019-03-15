@@ -76,18 +76,18 @@ Public Class newadmission
 
     Private Sub nmbtlogin_Click(sender As Object, e As EventArgs) Handles nmbtlogin.Click
         Dim dt As String = nmdob.ToString
-        Dim a As Int32
-        a = dt.Length
-        Console.WriteLine(a)
+
         Dim dts As String = dt.Substring(44, 10)
 
         Console.WriteLine(dts)
 
-        sql = "insert into s_info values (" + nmcroll.Text + ",""" + nmfirstname.Text + """,""" + nmlastname.Text + """,""" + nmfathername.Text + """,""" + nmmothername.Text + """,""" + nmdob.ToString() + """,""" + nmgender.Text + """,""" + nmpa.Text + """,""" + nmca.Text + """," + nmsmnumber.Text + "," + nmpmnumber.Text + ",""" + nmemail.Text + """,""" + nmcbcaste.Text + """,""" + nmreligion.Text + """,""" + nmnational.Text + """," + nmadnumber.Text + "," + nmaincome.Text + ",""" + nmconveyance.Text + """,""" + nmdept.Text + """,""" + nmclass.Text + """,""" + nmsem.Text + """)"
+        sql = "insert into s_info values (" + nmcroll.Text + ",""" + nmfirstname.Text + """,""" + nmlastname.Text + """,""" + nmfathername.Text + """,""" + nmmothername.Text + """,""" + dts + """,""" + nmgender.Text + """,""" + nmpa.Text + """,""" + nmca.Text + """," + nmsmnumber.Text + "," + nmpmnumber.Text + ",""" + nmemail.Text + """,""" + nmcbcaste.Text + """,""" + nmreligion.Text + """,""" + nmnational.Text + """," + nmadnumber.Text + "," + nmaincome.Text + ",""" + nmconveyance.Text + """,""" + nmdept.Text + """,""" + nmclass.Text + """,""" + nmsem.Text + """)"
         Db.Updateqry(sql)
         For Each item1 As String In nmsub.CheckedItems
-            sql = "insert into stu_subject values (" + nmcroll.Text + ",""" + nmsem.Text + """," + item1 + ")"
+            sql = "insert into stu_subject values (" + nmcroll.Text + ",""" + nmsem.Text + """,""" + item1 + """)"
+            Db.Updateqry(sql)
         Next
+        MessageBox.Show("Data Inserted Succesfully")
 
     End Sub
 End Class
