@@ -86,4 +86,12 @@ Public Class newadmission
 	Private Sub scholarship_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmscholership.SelectedIndexChanged
 
 	End Sub
+
+	Private Sub nmfirstname_TextChanged(sender As Object, e As EventArgs) Handles nmfirstname.TextChanged
+
+	End Sub
+
+	Private Sub nmdob_ValueChanged(sender As Object, e As EventArgs) Handles nmdob.ValueChanged
+
+	End Sub
 End Class

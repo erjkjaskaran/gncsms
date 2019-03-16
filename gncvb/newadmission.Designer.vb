@@ -163,7 +163,7 @@ Partial Class newadmission
 		Me.nmmothername.Location = New System.Drawing.Point(238, 167)
 		Me.nmmothername.Name = "nmmothername"
 		Me.nmmothername.Size = New System.Drawing.Size(247, 26)
-		Me.nmmothername.TabIndex = 8
+		Me.nmmothername.TabIndex = 4
 		'
 		'nmfathername
 		'
@@ -172,7 +172,7 @@ Partial Class newadmission
 		Me.nmfathername.Location = New System.Drawing.Point(238, 137)
 		Me.nmfathername.Name = "nmfathername"
 		Me.nmfathername.Size = New System.Drawing.Size(247, 26)
-		Me.nmfathername.TabIndex = 9
+		Me.nmfathername.TabIndex = 3
 		'
 		'nmlastname
 		'
@@ -189,7 +189,7 @@ Partial Class newadmission
 		Me.nmdob.Location = New System.Drawing.Point(238, 196)
 		Me.nmdob.Name = "nmdob"
 		Me.nmdob.Size = New System.Drawing.Size(247, 26)
-		Me.nmdob.TabIndex = 11
+		Me.nmdob.TabIndex = 5
 		'
 		'Label7
 		'
@@ -238,7 +238,7 @@ Partial Class newadmission
 		Me.nmpa.Location = New System.Drawing.Point(238, 261)
 		Me.nmpa.Name = "nmpa"
 		Me.nmpa.Size = New System.Drawing.Size(247, 85)
-		Me.nmpa.TabIndex = 17
+		Me.nmpa.TabIndex = 7
 		Me.nmpa.Text = ""
 		'
 		'nmgender
@@ -248,7 +248,7 @@ Partial Class newadmission
 		Me.nmgender.Location = New System.Drawing.Point(238, 230)
 		Me.nmgender.Name = "nmgender"
 		Me.nmgender.Size = New System.Drawing.Size(247, 26)
-		Me.nmgender.TabIndex = 18
+		Me.nmgender.TabIndex = 6
 		Me.nmgender.Text = "Select"
 		'
 		'cbaddress
@@ -258,7 +258,7 @@ Partial Class newadmission
 		Me.cbaddress.Location = New System.Drawing.Point(256, 358)
 		Me.cbaddress.Name = "cbaddress"
 		Me.cbaddress.Size = New System.Drawing.Size(238, 22)
-		Me.cbaddress.TabIndex = 19
+		Me.cbaddress.TabIndex = 8
 		Me.cbaddress.Text = "Same as Pemanent address"
 		Me.cbaddress.UseVisualStyleBackColor = True
 		'
@@ -268,7 +268,7 @@ Partial Class newadmission
 		Me.nmca.Location = New System.Drawing.Point(238, 386)
 		Me.nmca.Name = "nmca"
 		Me.nmca.Size = New System.Drawing.Size(247, 85)
-		Me.nmca.TabIndex = 20
+		Me.nmca.TabIndex = 9
 		Me.nmca.Text = ""
 		'
 		'nmsmnumber
@@ -278,7 +278,7 @@ Partial Class newadmission
 		Me.nmsmnumber.MaxLength = 10
 		Me.nmsmnumber.Name = "nmsmnumber"
 		Me.nmsmnumber.Size = New System.Drawing.Size(253, 26)
-		Me.nmsmnumber.TabIndex = 21
+		Me.nmsmnumber.TabIndex = 10
 		'
 		'Label11
 		'
@@ -297,7 +297,7 @@ Partial Class newadmission
 		Me.nmpmnumber.MaxLength = 10
 		Me.nmpmnumber.Name = "nmpmnumber"
 		Me.nmpmnumber.Size = New System.Drawing.Size(253, 26)
-		Me.nmpmnumber.TabIndex = 23
+		Me.nmpmnumber.TabIndex = 11
 		'
 		'Label12
 		'
@@ -364,14 +364,14 @@ Partial Class newadmission
 		Me.nmconveyance.Location = New System.Drawing.Point(936, 128)
 		Me.nmconveyance.Name = "nmconveyance"
 		Me.nmconveyance.Size = New System.Drawing.Size(237, 26)
-		Me.nmconveyance.TabIndex = 30
+		Me.nmconveyance.TabIndex = 17
 		'
 		'nmaincome
 		'
 		Me.nmaincome.Location = New System.Drawing.Point(936, 100)
 		Me.nmaincome.Name = "nmaincome"
 		Me.nmaincome.Size = New System.Drawing.Size(237, 26)
-		Me.nmaincome.TabIndex = 31
+		Me.nmaincome.TabIndex = 16
 		'
 		'nmadnumber
 		'
@@ -379,7 +379,7 @@ Partial Class newadmission
 		Me.nmadnumber.MaxLength = 12
 		Me.nmadnumber.Name = "nmadnumber"
 		Me.nmadnumber.Size = New System.Drawing.Size(239, 26)
-		Me.nmadnumber.TabIndex = 32
+		Me.nmadnumber.TabIndex = 15
 		'
 		'nmreligion
 		'
@@ -387,7 +387,7 @@ Partial Class newadmission
 		Me.nmreligion.Location = New System.Drawing.Point(238, 606)
 		Me.nmreligion.Name = "nmreligion"
 		Me.nmreligion.Size = New System.Drawing.Size(253, 26)
-		Me.nmreligion.TabIndex = 33
+		Me.nmreligion.TabIndex = 14
 		'
 		'nmemail
 		'
@@ -395,7 +395,7 @@ Partial Class newadmission
 		Me.nmemail.Location = New System.Drawing.Point(238, 549)
 		Me.nmemail.Name = "nmemail"
 		Me.nmemail.Size = New System.Drawing.Size(253, 26)
-		Me.nmemail.TabIndex = 34
+		Me.nmemail.TabIndex = 12
 		'
 		'nmcbcaste
 		'
@@ -404,7 +404,7 @@ Partial Class newadmission
 		Me.nmcbcaste.Location = New System.Drawing.Point(238, 577)
 		Me.nmcbcaste.Name = "nmcbcaste"
 		Me.nmcbcaste.Size = New System.Drawing.Size(253, 26)
-		Me.nmcbcaste.TabIndex = 35
+		Me.nmcbcaste.TabIndex = 13
 		Me.nmcbcaste.Text = "Select"
 		'
 		'Label18
@@ -503,7 +503,7 @@ Partial Class newadmission
 		Me.nmdept.Location = New System.Drawing.Point(936, 157)
 		Me.nmdept.Name = "nmdept"
 		Me.nmdept.Size = New System.Drawing.Size(237, 26)
-		Me.nmdept.TabIndex = 45
+		Me.nmdept.TabIndex = 18
 		Me.nmdept.Text = "Select"
 		'
 		'nmclass
@@ -512,7 +512,7 @@ Partial Class newadmission
 		Me.nmclass.Location = New System.Drawing.Point(936, 185)
 		Me.nmclass.Name = "nmclass"
 		Me.nmclass.Size = New System.Drawing.Size(237, 26)
-		Me.nmclass.TabIndex = 46
+		Me.nmclass.TabIndex = 19
 		Me.nmclass.Text = "Select"
 		'
 		'nmsem
@@ -521,7 +521,7 @@ Partial Class newadmission
 		Me.nmsem.Location = New System.Drawing.Point(936, 216)
 		Me.nmsem.Name = "nmsem"
 		Me.nmsem.Size = New System.Drawing.Size(237, 26)
-		Me.nmsem.TabIndex = 47
+		Me.nmsem.TabIndex = 20
 		Me.nmsem.Text = "Select"
 		'
 		'nmsub1
@@ -530,7 +530,7 @@ Partial Class newadmission
 		Me.nmsub1.Location = New System.Drawing.Point(936, 245)
 		Me.nmsub1.Name = "nmsub1"
 		Me.nmsub1.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub1.TabIndex = 48
+		Me.nmsub1.TabIndex = 21
 		Me.nmsub1.Text = "Select"
 		'
 		'nmsub2
@@ -539,7 +539,7 @@ Partial Class newadmission
 		Me.nmsub2.Location = New System.Drawing.Point(936, 277)
 		Me.nmsub2.Name = "nmsub2"
 		Me.nmsub2.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub2.TabIndex = 49
+		Me.nmsub2.TabIndex = 22
 		Me.nmsub2.Text = "Select"
 		'
 		'nmsub3
@@ -548,7 +548,7 @@ Partial Class newadmission
 		Me.nmsub3.Location = New System.Drawing.Point(936, 305)
 		Me.nmsub3.Name = "nmsub3"
 		Me.nmsub3.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub3.TabIndex = 50
+		Me.nmsub3.TabIndex = 23
 		Me.nmsub3.Text = "Select"
 		'
 		'nmsub4
@@ -557,7 +557,7 @@ Partial Class newadmission
 		Me.nmsub4.Location = New System.Drawing.Point(936, 330)
 		Me.nmsub4.Name = "nmsub4"
 		Me.nmsub4.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub4.TabIndex = 51
+		Me.nmsub4.TabIndex = 24
 		Me.nmsub4.Text = "Select"
 		'
 		'nmsub5
@@ -566,7 +566,7 @@ Partial Class newadmission
 		Me.nmsub5.Location = New System.Drawing.Point(936, 357)
 		Me.nmsub5.Name = "nmsub5"
 		Me.nmsub5.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub5.TabIndex = 52
+		Me.nmsub5.TabIndex = 25
 		Me.nmsub5.Text = "Select"
 		'
 		'nmsub6
@@ -575,7 +575,7 @@ Partial Class newadmission
 		Me.nmsub6.Location = New System.Drawing.Point(936, 386)
 		Me.nmsub6.Name = "nmsub6"
 		Me.nmsub6.Size = New System.Drawing.Size(237, 26)
-		Me.nmsub6.TabIndex = 53
+		Me.nmsub6.TabIndex = 26
 		Me.nmsub6.Text = "Select"
 		'
 		'Label27
@@ -603,21 +603,21 @@ Partial Class newadmission
 		Me.nmbankac.Location = New System.Drawing.Point(936, 452)
 		Me.nmbankac.Name = "nmbankac"
 		Me.nmbankac.Size = New System.Drawing.Size(237, 26)
-		Me.nmbankac.TabIndex = 58
+		Me.nmbankac.TabIndex = 28
 		'
 		'nmammountpaid
 		'
 		Me.nmammountpaid.Location = New System.Drawing.Point(936, 511)
 		Me.nmammountpaid.Name = "nmammountpaid"
 		Me.nmammountpaid.Size = New System.Drawing.Size(237, 26)
-		Me.nmammountpaid.TabIndex = 59
+		Me.nmammountpaid.TabIndex = 30
 		'
 		'nmtotalfees
 		'
 		Me.nmtotalfees.Location = New System.Drawing.Point(936, 482)
 		Me.nmtotalfees.Name = "nmtotalfees"
 		Me.nmtotalfees.Size = New System.Drawing.Size(237, 26)
-		Me.nmtotalfees.TabIndex = 60
+		Me.nmtotalfees.TabIndex = 29
 		'
 		'Label29
 		'
@@ -654,7 +654,7 @@ Partial Class newadmission
 		Me.nmbtlogin.Margin = New System.Windows.Forms.Padding(0)
 		Me.nmbtlogin.Name = "nmbtlogin"
 		Me.nmbtlogin.Size = New System.Drawing.Size(155, 39)
-		Me.nmbtlogin.TabIndex = 65
+		Me.nmbtlogin.TabIndex = 31
 		Me.nmbtlogin.Text = "Submit"
 		Me.nmbtlogin.UseVisualStyleBackColor = False
 		'
@@ -673,7 +673,7 @@ Partial Class newadmission
 		Me.nmbtcncel.Margin = New System.Windows.Forms.Padding(0)
 		Me.nmbtcncel.Name = "nmbtcncel"
 		Me.nmbtcncel.Size = New System.Drawing.Size(155, 39)
-		Me.nmbtcncel.TabIndex = 66
+		Me.nmbtcncel.TabIndex = 32
 		Me.nmbtcncel.Text = "Cancel"
 		Me.nmbtcncel.UseVisualStyleBackColor = False
 		'
@@ -683,7 +683,7 @@ Partial Class newadmission
 		Me.nmscholership.Location = New System.Drawing.Point(936, 419)
 		Me.nmscholership.Name = "nmscholership"
 		Me.nmscholership.Size = New System.Drawing.Size(237, 26)
-		Me.nmscholership.TabIndex = 67
+		Me.nmscholership.TabIndex = 27
 		Me.nmscholership.Text = "Select"
 		'
 		'newadmission
