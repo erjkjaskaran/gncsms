@@ -20,4 +20,8 @@
 		list_pending_fees.Show()
 		Me.Hide()
 	End Sub
+
+    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        rough.Show()
+    End Sub
 End Class
