@@ -10,7 +10,7 @@ Db.vb
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+Db.vb
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/

@@ -11,11 +11,16 @@ Public Class newadmission
     End Sub
 
     Private Sub Newadmission_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        sql = "select distinct(dept) from courses"
-        dr = Db.Selectqry(sql)
-        While (dr.Read())
-            nmdept.Items.Add(dr("dept"))
-        End While
+        Try
+            sql = "select distinct(dept) from courses"
+            dr = Db.Selectqry(sql)
+            While (dr.Read())
+                nmdept.Items.Add(dr("dept"))
+            End While
+        Catch ex As Exception
+            MessageBox.Show(String.Format("Error: {0}", ex.Message))
+        End Try
+
         nmgender.Items.Add("Male")
         nmgender.Items.Add("Female")
         nmgender.Items.Add("Transgender")

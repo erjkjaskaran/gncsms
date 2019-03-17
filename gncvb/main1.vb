@@ -13,7 +13,7 @@
 
 
     Private Sub XToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles XToolStripMenuItem.Click
-        Me.Hide()
+        Application.Exit()
     End Sub
 
 	Private Sub ToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem1.Click
@@ -23,5 +23,10 @@
 
     Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
         rough.Show()
+    End Sub
+
+    Private Sub AddNewCourseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewCourseToolStripMenuItem.Click
+        addcourse.Show()
+        Me.Hide()
     End Sub
 End Class
