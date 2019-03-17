@@ -108,6 +108,7 @@
     <Compile Include="addsubject.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Db.vb" />
     <Compile Include="Errorbox.Designer.vb">
       <DependentUpon>Errorbox.vb</DependentUpon>
@@ -200,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="addcourse.resx">
       <DependentUpon>addcourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rough.resx">
       <DependentUpon>rough.vb</DependentUpon>
