@@ -33,8 +33,8 @@ Partial Class addcourse
         Me.adcbtcncl = New System.Windows.Forms.Button()
         Me.chkfee = New System.Windows.Forms.CheckBox()
         Me.chksub = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnfee = New System.Windows.Forms.Button()
+        Me.btnsub = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -167,43 +167,43 @@ Partial Class addcourse
         Me.chksub.Text = "Subject Added"
         Me.chksub.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnfee
         '
-        Me.Button1.BackColor = System.Drawing.Color.Teal
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(253, 201)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 27)
-        Me.Button1.TabIndex = 59
-        Me.Button1.Text = "Set Fees"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnfee.BackColor = System.Drawing.Color.Teal
+        Me.btnfee.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnfee.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
+        Me.btnfee.FlatAppearance.BorderSize = 0
+        Me.btnfee.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnfee.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
+        Me.btnfee.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnfee.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnfee.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnfee.Location = New System.Drawing.Point(253, 201)
+        Me.btnfee.Margin = New System.Windows.Forms.Padding(0)
+        Me.btnfee.Name = "btnfee"
+        Me.btnfee.Size = New System.Drawing.Size(113, 27)
+        Me.btnfee.TabIndex = 59
+        Me.btnfee.Text = "Set Fees"
+        Me.btnfee.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnsub
         '
-        Me.Button2.BackColor = System.Drawing.Color.Teal
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(253, 236)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(0)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(113, 27)
-        Me.Button2.TabIndex = 60
-        Me.Button2.Text = "Add Subject"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnsub.BackColor = System.Drawing.Color.Teal
+        Me.btnsub.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnsub.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
+        Me.btnsub.FlatAppearance.BorderSize = 0
+        Me.btnsub.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.btnsub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
+        Me.btnsub.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnsub.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnsub.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnsub.Location = New System.Drawing.Point(253, 236)
+        Me.btnsub.Margin = New System.Windows.Forms.Padding(0)
+        Me.btnsub.Name = "btnsub"
+        Me.btnsub.Size = New System.Drawing.Size(113, 27)
+        Me.btnsub.TabIndex = 60
+        Me.btnsub.Text = "Add Subject"
+        Me.btnsub.UseVisualStyleBackColor = False
         '
         'addcourse
         '
@@ -211,8 +211,8 @@ Partial Class addcourse
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.GhostWhite
         Me.ClientSize = New System.Drawing.Size(479, 412)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnsub)
+        Me.Controls.Add(Me.btnfee)
         Me.Controls.Add(Me.chksub)
         Me.Controls.Add(Me.chkfee)
         Me.Controls.Add(Me.adcbtcncl)
@@ -245,6 +245,6 @@ Partial Class addcourse
     Friend WithEvents adcbtcncl As Button
     Friend WithEvents chkfee As CheckBox
     Friend WithEvents chksub As CheckBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnfee As Button
+    Friend WithEvents btnsub As Button
 End Class
