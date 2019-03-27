@@ -1,11 +1,12 @@
 ﻿Imports System.Data.OleDb
+Imports System.Data.SqlClient
 Imports gncvb.Db
 
 Public Class rough
     Dim dr As OleDbDataReader
     Dim sql As String
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        CheckedListBox1.Items.Clear()
+
         sql = "select distinct(dept) from courses"
         dr = Db.Selectqry(Sql)
         While (dr.Read())
@@ -39,21 +40,14 @@ Public Class rough
     Private Sub nmsem_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmsem.SelectedIndexChanged
         sql = "select subject from course_1 where sem=" + nmsem.Text + " and class='" + nmclass.Text + "'"
         dr = Db.Selectqry(sql)
-        While (dr.Read())
-            CheckedListBox1.Items.Add(dr("subject"))
-        End While
-        
+        Dim dt As New DataTable
+        dt.Load(dr)
+
+        DataGridView1.DataSource = dt
+        DataGridView1.Columns(0).Name = "Subject"
+
+
     End Sub
 
-    Private Sub nmbtlogin_Click(sender As Object, e As EventArgs) Handles nmbtlogin.Click
-        For Each item1 As String In CheckedListBox1.CheckedItems
-            Dim a As String
-            a = item1
-            sql = "insert into abc values(""" & nmdept.Text & """,""" + nmclass.Text + """," + nmsem.Text + ",""" + a + """)"
-            Console.WriteLine(sql)
-            Db.Updateqry(sql)
-        Next
 
-        MessageBox.Show("Data Inserted Succesfully")
-    End Sub
 End Class
