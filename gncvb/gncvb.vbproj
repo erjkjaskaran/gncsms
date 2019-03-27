@@ -11,9 +11,12 @@
     <AssemblyName>gncvb</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,12 +29,11 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <DefineDebug>true</DefineDebug>
@@ -39,6 +41,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>gncvb.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +52,7 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>gncvb.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
     <OptionExplicit>On</OptionExplicit>
@@ -65,10 +69,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
     <OutputPath>bin\x86\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <PlatformTarget>x86</PlatformTarget>
     <OutputPath>bin\x86\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -96,12 +102,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="add new courses.Designer.vb">
-      <DependentUpon>add new courses.vb</DependentUpon>
+    <Compile Include="addsubject.Designer.vb">
+      <DependentUpon>addsubject.vb</DependentUpon>
     </Compile>
-    <Compile Include="add new courses.vb">
+    <Compile Include="addsubject.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Db.vb" />
     <Compile Include="Errorbox.Designer.vb">
       <DependentUpon>Errorbox.vb</DependentUpon>
@@ -113,6 +120,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
     <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addcourse.Designer.vb">
+      <DependentUpon>addcourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addcourse.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rough.Designer.vb">
@@ -172,13 +185,25 @@
     <Compile Include="readmission.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="setfee.Designer.vb">
+      <DependentUpon>setfee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="setfee.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="add new courses.resx">
-      <DependentUpon>add new courses.vb</DependentUpon>
+    <EmbeddedResource Include="addsubject.resx">
+      <DependentUpon>addsubject.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Errorbox.resx">
       <DependentUpon>Errorbox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addcourse.resx">
+      <DependentUpon>addcourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rough.resx">
       <DependentUpon>rough.vb</DependentUpon>
@@ -203,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="readmission.resx">
       <DependentUpon>readmission.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setfee.resx">
+      <DependentUpon>setfee.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

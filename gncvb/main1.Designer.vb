@@ -29,9 +29,9 @@ Partial Class main1
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddNewCourseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddNewSubjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -88,12 +88,6 @@ Partial Class main1
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(58, 20)
         Me.ToolStripMenuItem4.Text = " Admin"
         '
-        'XToolStripMenuItem
-        '
-        Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
-        Me.XToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
-        Me.XToolStripMenuItem.Text = "X"
-        '
         'AddNewCourseToolStripMenuItem
         '
         Me.AddNewCourseToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
@@ -107,6 +101,12 @@ Partial Class main1
         Me.AddNewSubjectToolStripMenuItem.Name = "AddNewSubjectToolStripMenuItem"
         Me.AddNewSubjectToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AddNewSubjectToolStripMenuItem.Text = "Add New Subject"
+        '
+        'XToolStripMenuItem
+        '
+        Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
+        Me.XToolStripMenuItem.Size = New System.Drawing.Size(26, 20)
+        Me.XToolStripMenuItem.Text = "X"
         '
         'main1
         '
