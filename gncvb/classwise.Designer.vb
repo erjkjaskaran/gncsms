@@ -25,9 +25,9 @@ Partial Class classwise
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.cwdept = New System.Windows.Forms.ComboBox()
+        Me.cwsem = New System.Windows.Forms.ComboBox()
+        Me.cwclass = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.pfbtcancel = New System.Windows.Forms.Button()
         Me.pfbtsubmit = New System.Windows.Forms.Button()
@@ -64,29 +64,29 @@ Partial Class classwise
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Class"
         '
-        'ComboBox1
+        'cwdept
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(94, 79)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 3
+        Me.cwdept.FormattingEnabled = True
+        Me.cwdept.Location = New System.Drawing.Point(94, 79)
+        Me.cwdept.Name = "cwdept"
+        Me.cwdept.Size = New System.Drawing.Size(121, 21)
+        Me.cwdept.TabIndex = 3
         '
-        'ComboBox5
+        'cwsem
         '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(469, 79)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox5.TabIndex = 7
+        Me.cwsem.FormattingEnabled = True
+        Me.cwsem.Location = New System.Drawing.Point(469, 79)
+        Me.cwsem.Name = "cwsem"
+        Me.cwsem.Size = New System.Drawing.Size(121, 21)
+        Me.cwsem.TabIndex = 7
         '
-        'ComboBox6
+        'cwclass
         '
-        Me.ComboBox6.FormattingEnabled = True
-        Me.ComboBox6.Location = New System.Drawing.Point(272, 79)
-        Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox6.TabIndex = 8
+        Me.cwclass.FormattingEnabled = True
+        Me.cwclass.Location = New System.Drawing.Point(272, 79)
+        Me.cwclass.Name = "cwclass"
+        Me.cwclass.Size = New System.Drawing.Size(121, 21)
+        Me.cwclass.TabIndex = 8
         '
         'Label4
         '
@@ -155,9 +155,9 @@ Partial Class classwise
         Me.Controls.Add(Me.pfbtcancel)
         Me.Controls.Add(Me.pfbtsubmit)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.ComboBox6)
-        Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.cwclass)
+        Me.Controls.Add(Me.cwsem)
+        Me.Controls.Add(Me.cwdept)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -174,9 +174,9 @@ Partial Class classwise
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents cwdept As ComboBox
+    Friend WithEvents cwsem As ComboBox
+    Friend WithEvents cwclass As ComboBox
     Friend WithEvents Label4 As Label
     Friend WithEvents pfbtcancel As Button
     Friend WithEvents pfbtsubmit As Button

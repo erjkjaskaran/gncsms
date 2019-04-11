@@ -29,4 +29,14 @@
         addcourse.Show()
         Me.Hide()
     End Sub
+
+    Private Sub SubjectWiseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SubjectWiseToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ClassWiseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ClassWiseToolStripMenuItem.Click
+        Me.Hide()
+        classwise.Show()
+
+    End Sub
 End Class
