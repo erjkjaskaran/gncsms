@@ -109,6 +109,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="classwise.Designer.vb">
+      <DependentUpon>classwise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="classwise.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Db.vb" />
     <Compile Include="Errorbox.Designer.vb">
       <DependentUpon>Errorbox.vb</DependentUpon>
@@ -195,6 +201,9 @@
   <ItemGroup>
     <EmbeddedResource Include="addsubject.resx">
       <DependentUpon>addsubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classwise.resx">
+      <DependentUpon>classwise.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Errorbox.resx">
       <DependentUpon>Errorbox.vb</DependentUpon>

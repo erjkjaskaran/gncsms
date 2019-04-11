@@ -38,7 +38,7 @@ Public Class rough
     End Sub
 
     Private Sub nmsem_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmsem.SelectedIndexChanged
-        sql = "select subject from course_1 where sem=" + nmsem.Text + " and class='" + nmclass.Text + "'"
+        sql = "select subject as Subject from course_1 where sem=" + nmsem.Text + " and class='" + nmclass.Text + "'"
         dr = Db.Selectqry(sql)
         Dim dt As New DataTable
         dt.Load(dr)

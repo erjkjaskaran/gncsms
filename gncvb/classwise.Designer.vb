@@ -1,35 +1,36 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class list_pending_fees
-	Inherits System.Windows.Forms.Form
+Partial Class classwise
+    Inherits System.Windows.Forms.Form
 
-	'Form overrides dispose to clean up the component list.
-	<System.Diagnostics.DebuggerNonUserCode()> _
-	Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-		Try
-			If disposing AndAlso components IsNot Nothing Then
-				components.Dispose()
-			End If
-		Finally
-			MyBase.Dispose(disposing)
-		End Try
-	End Sub
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
 
-	'Required by the Windows Form Designer
-	Private components As System.ComponentModel.IContainer
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
 
-	'NOTE: The following procedure is required by the Windows Form Designer
-	'It can be modified using the Windows Form Designer.  
-	'Do not modify it using the code editor.
-	<System.Diagnostics.DebuggerStepThrough()> _
-	Private Sub InitializeComponent()
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.pfdept = New System.Windows.Forms.ComboBox()
-        Me.pfclass = New System.Windows.Forms.ComboBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.pfbtcancel = New System.Windows.Forms.Button()
         Me.pfbtsubmit = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -39,52 +40,62 @@ Partial Class list_pending_fees
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(49, 17)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label1.Location = New System.Drawing.Point(183, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(581, 38)
+        Me.Label1.Size = New System.Drawing.Size(453, 38)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "List Of Students With Pending Fees"
+        Me.Label1.Text = "List of Students Class Wise"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.Navy
-        Me.Label2.Location = New System.Drawing.Point(34, 81)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Location = New System.Drawing.Point(26, 82)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(62, 13)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Department"
         '
-        'pfdept
-        '
-        Me.pfdept.FormattingEnabled = True
-        Me.pfdept.Location = New System.Drawing.Point(110, 78)
-        Me.pfdept.Margin = New System.Windows.Forms.Padding(2)
-        Me.pfdept.Name = "pfdept"
-        Me.pfdept.Size = New System.Drawing.Size(92, 21)
-        Me.pfdept.TabIndex = 2
-        '
-        'pfclass
-        '
-        Me.pfclass.FormattingEnabled = True
-        Me.pfclass.Location = New System.Drawing.Point(277, 78)
-        Me.pfclass.Margin = New System.Windows.Forms.Padding(2)
-        Me.pfclass.Name = "pfclass"
-        Me.pfclass.Size = New System.Drawing.Size(92, 21)
-        Me.pfclass.TabIndex = 4
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.Navy
-        Me.Label3.Location = New System.Drawing.Point(232, 81)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label3.Location = New System.Drawing.Point(234, 82)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(32, 13)
-        Me.Label3.TabIndex = 5
+        Me.Label3.TabIndex = 2
         Me.Label3.Text = "Class"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(94, 79)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 3
+        '
+        'ComboBox5
+        '
+        Me.ComboBox5.FormattingEnabled = True
+        Me.ComboBox5.Location = New System.Drawing.Point(469, 79)
+        Me.ComboBox5.Name = "ComboBox5"
+        Me.ComboBox5.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox5.TabIndex = 7
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Location = New System.Drawing.Point(272, 79)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox6.TabIndex = 8
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(412, 82)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(51, 13)
+        Me.Label4.TabIndex = 9
+        Me.Label4.Text = "Semester"
         '
         'pfbtcancel
         '
@@ -97,11 +108,11 @@ Partial Class list_pending_fees
         Me.pfbtcancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pfbtcancel.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pfbtcancel.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.pfbtcancel.Location = New System.Drawing.Point(534, 71)
+        Me.pfbtcancel.Location = New System.Drawing.Point(749, 72)
         Me.pfbtcancel.Margin = New System.Windows.Forms.Padding(0)
         Me.pfbtcancel.Name = "pfbtcancel"
         Me.pfbtcancel.Size = New System.Drawing.Size(114, 30)
-        Me.pfbtcancel.TabIndex = 70
+        Me.pfbtcancel.TabIndex = 72
         Me.pfbtcancel.Text = "Cancel"
         Me.pfbtcancel.UseVisualStyleBackColor = False
         '
@@ -116,55 +127,44 @@ Partial Class list_pending_fees
         Me.pfbtsubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pfbtsubmit.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pfbtsubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.pfbtsubmit.Location = New System.Drawing.Point(399, 71)
+        Me.pfbtsubmit.Location = New System.Drawing.Point(619, 72)
         Me.pfbtsubmit.Margin = New System.Windows.Forms.Padding(0)
         Me.pfbtsubmit.Name = "pfbtsubmit"
         Me.pfbtsubmit.Size = New System.Drawing.Size(114, 30)
-        Me.pfbtsubmit.TabIndex = 69
+        Me.pfbtsubmit.TabIndex = 71
         Me.pfbtsubmit.Text = "Submit"
         Me.pfbtsubmit.UseVisualStyleBackColor = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label4.Location = New System.Drawing.Point(649, 7)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(14, 13)
-        Me.Label4.TabIndex = 71
-        Me.Label4.Text = "X"
         '
         'DataGridView1
         '
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(37, 140)
+        Me.DataGridView1.Location = New System.Drawing.Point(42, 140)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(611, 240)
-        Me.DataGridView1.TabIndex = 72
+        Me.DataGridView1.Size = New System.Drawing.Size(807, 276)
+        Me.DataGridView1.TabIndex = 73
         '
-        'list_pending_fees
+        'classwise
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.GhostWhite
-        Me.ClientSize = New System.Drawing.Size(687, 416)
+        Me.ClientSize = New System.Drawing.Size(893, 450)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.pfbtcancel)
         Me.Controls.Add(Me.pfbtsubmit)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.ComboBox6)
+        Me.Controls.Add(Me.ComboBox5)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.pfclass)
-        Me.Controls.Add(Me.pfdept)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.ForeColor = System.Drawing.Color.DarkSlateGray
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(2)
-        Me.Name = "list_pending_fees"
-        Me.Text = "list_pending_fees"
+        Me.Name = "classwise"
+        Me.Text = "classwise"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -172,12 +172,13 @@ Partial Class list_pending_fees
     End Sub
 
     Friend WithEvents Label1 As Label
-	Friend WithEvents Label2 As Label
-	Friend WithEvents pfdept As ComboBox
-	Friend WithEvents pfclass As ComboBox
-	Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents ComboBox6 As ComboBox
+    Friend WithEvents Label4 As Label
     Friend WithEvents pfbtcancel As Button
     Friend WithEvents pfbtsubmit As Button
-	Friend WithEvents Label4 As Label
     Friend WithEvents DataGridView1 As DataGridView
 End Class

@@ -25,4 +25,13 @@ Public Class list_pending_fees
 
 	End Sub
 
+    Private Sub pfbtsubmit_Click(sender As Object, e As EventArgs) Handles pfbtsubmit.Click
+        sql = "select sf.croll as Rollno, from course_1 where sem=" + nmsem.Text + " and class='" + nmclass.Text + "'"
+        dr = Db.Selectqry(sql)
+        Dim dt As New DataTable
+        dt.Load(dr)
+
+        DataGridView1.DataSource = dt
+        DataGridView1.Columns(0).Name = "Subject"
+    End Sub
 End Class
