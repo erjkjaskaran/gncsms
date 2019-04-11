@@ -122,16 +122,22 @@
     <Compile Include="Errorbox.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="splash screen.Designer.vb">
+      <DependentUpon>splash screen.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="splash screen.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="addcourse.Designer.vb">
       <DependentUpon>addcourse.vb</DependentUpon>
     </Compile>
     <Compile Include="addcourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subject wise.Designer.vb">
+      <DependentUpon>subject wise.vb</DependentUpon>
+    </Compile>
+    <Compile Include="subject wise.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rough.Designer.vb">
@@ -211,8 +217,11 @@
     <EmbeddedResource Include="addcourse.resx">
       <DependentUpon>addcourse.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="splash screen.resx">
+      <DependentUpon>splash screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subject wise.resx">
+      <DependentUpon>subject wise.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rough.resx">
       <DependentUpon>rough.vb</DependentUpon>
