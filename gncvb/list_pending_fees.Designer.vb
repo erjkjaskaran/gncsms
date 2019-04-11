@@ -88,7 +88,7 @@ Partial Class list_pending_fees
 		Me.pfbtcancel.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
 		Me.pfbtcancel.FlatAppearance.BorderSize = 0
 		Me.pfbtcancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.pfbtcancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+		Me.pfbtcancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
 		Me.pfbtcancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.pfbtcancel.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.pfbtcancel.ForeColor = System.Drawing.SystemColors.ButtonFace
@@ -107,7 +107,7 @@ Partial Class list_pending_fees
 		Me.pfbtsubmit.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
 		Me.pfbtsubmit.FlatAppearance.BorderSize = 0
 		Me.pfbtsubmit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.pfbtsubmit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+		Me.pfbtsubmit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
 		Me.pfbtsubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.pfbtsubmit.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.pfbtsubmit.ForeColor = System.Drawing.SystemColors.ButtonFace

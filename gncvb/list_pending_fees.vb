@@ -22,7 +22,16 @@ Public Class list_pending_fees
 	End Sub
 
 	Private Sub pfdept_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pfdept.SelectedIndexChanged
+		pfclass.Items.Clear()
 
+		sql = "select distinct(class) from courses where dept='" + pfdept.Text + "'"
+		dr = Db.Selectqry(sql)
+		While (dr.Read())
+			pfclass.Items.Add(dr("class"))
+		End While
 	End Sub
 
+	Private Sub pfclass_SelectedIndexChanged(sender As Object, e As EventArgs) Handles pfclass.SelectedIndexChanged
+
+	End Sub
 End Class

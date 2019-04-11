@@ -312,7 +312,7 @@ Partial Class readmission
 		Me.rabtcancel.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
 		Me.rabtcancel.FlatAppearance.BorderSize = 0
 		Me.rabtcancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.rabtcancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+		Me.rabtcancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
 		Me.rabtcancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.rabtcancel.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.rabtcancel.ForeColor = System.Drawing.SystemColors.ButtonFace
@@ -331,7 +331,7 @@ Partial Class readmission
 		Me.rabtlogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
 		Me.rabtlogin.FlatAppearance.BorderSize = 0
 		Me.rabtlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-		Me.rabtlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Teal
+		Me.rabtlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
 		Me.rabtlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
 		Me.rabtlogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.rabtlogin.ForeColor = System.Drawing.SystemColors.ButtonFace

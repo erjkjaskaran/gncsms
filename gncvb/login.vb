@@ -59,4 +59,8 @@ Public Class Login
 	Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
 	End Sub
+
+	Private Sub un_TextChanged(sender As Object, e As EventArgs) Handles un.TextChanged
+
+	End Sub
 End Class
