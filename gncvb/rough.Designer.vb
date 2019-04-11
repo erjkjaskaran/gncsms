@@ -28,9 +28,10 @@ Partial Class rough
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.nmbtlogin = New System.Windows.Forms.Button()
-        Me.CheckedListBox1 = New System.Windows.Forms.CheckedListBox()
+        Me.GncDataSet1 = New gncvb.GNCDataSet()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        CType(Me.GncDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'nmsem
@@ -90,51 +91,28 @@ Partial Class rough
         Me.Label24.TabIndex = 48
         Me.Label24.Text = "Semester"
         '
-        'Label1
+        'GncDataSet1
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label1.Location = New System.Drawing.Point(144, 199)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(43, 13)
-        Me.Label1.TabIndex = 54
-        Me.Label1.Text = "Subject"
+        Me.GncDataSet1.DataSetName = "GNCDataSet"
+        Me.GncDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
-        'nmbtlogin
+        'DataGridView1
         '
-        Me.nmbtlogin.BackColor = System.Drawing.Color.Teal
-        Me.nmbtlogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.nmbtlogin.FlatAppearance.BorderColor = System.Drawing.SystemColors.Highlight
-        Me.nmbtlogin.FlatAppearance.BorderSize = 0
-        Me.nmbtlogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
-        Me.nmbtlogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateGray
-        Me.nmbtlogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.nmbtlogin.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nmbtlogin.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.nmbtlogin.Location = New System.Drawing.Point(292, 371)
-        Me.nmbtlogin.Margin = New System.Windows.Forms.Padding(0)
-        Me.nmbtlogin.Name = "nmbtlogin"
-        Me.nmbtlogin.Size = New System.Drawing.Size(155, 39)
-        Me.nmbtlogin.TabIndex = 66
-        Me.nmbtlogin.Text = "Submit"
-        Me.nmbtlogin.UseVisualStyleBackColor = False
-        '
-        'CheckedListBox1
-        '
-        Me.CheckedListBox1.FormattingEnabled = True
-        Me.CheckedListBox1.Location = New System.Drawing.Point(430, 166)
-        Me.CheckedListBox1.Name = "CheckedListBox1"
-        Me.CheckedListBox1.Size = New System.Drawing.Size(243, 169)
-        Me.CheckedListBox1.TabIndex = 67
+        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(123, 174)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.Size = New System.Drawing.Size(528, 192)
+        Me.DataGridView1.TabIndex = 54
         '
         'rough
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.CheckedListBox1)
-        Me.Controls.Add(Me.nmbtlogin)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.nmsem)
         Me.Controls.Add(Me.nmclass)
         Me.Controls.Add(Me.nmdept)
@@ -144,6 +122,8 @@ Partial Class rough
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "rough"
         Me.Text = "Form2"
+        CType(Me.GncDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -155,7 +135,6 @@ Partial Class rough
     Friend WithEvents Label26 As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents Label24 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents nmbtlogin As Button
-    Friend WithEvents CheckedListBox1 As CheckedListBox
+    Friend WithEvents GncDataSet1 As GNCDataSet
+    Friend WithEvents DataGridView1 As DataGridView
 End Class
