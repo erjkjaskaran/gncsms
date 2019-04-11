@@ -27,10 +27,10 @@ Partial Class Form2
 		Me.Label3 = New System.Windows.Forms.Label()
 		Me.Label4 = New System.Windows.Forms.Label()
 		Me.Label5 = New System.Windows.Forms.Label()
-		Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-		Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-		Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-		Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+		Me.subwisedept = New System.Windows.Forms.ComboBox()
+		Me.subwisesub = New System.Windows.Forms.ComboBox()
+		Me.subwisesem = New System.Windows.Forms.ComboBox()
+		Me.subwiseclass = New System.Windows.Forms.ComboBox()
 		Me.rabtcancel = New System.Windows.Forms.Button()
 		Me.rabtlogin = New System.Windows.Forms.Button()
 		Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -89,37 +89,37 @@ Partial Class Form2
 		Me.Label5.TabIndex = 4
 		Me.Label5.Text = "Class"
 		'
-		'ComboBox1
+		'subwisedept
 		'
-		Me.ComboBox1.FormattingEnabled = True
-		Me.ComboBox1.Location = New System.Drawing.Point(167, 133)
-		Me.ComboBox1.Name = "ComboBox1"
-		Me.ComboBox1.Size = New System.Drawing.Size(121, 24)
-		Me.ComboBox1.TabIndex = 5
+		Me.subwisedept.FormattingEnabled = True
+		Me.subwisedept.Location = New System.Drawing.Point(167, 133)
+		Me.subwisedept.Name = "subwisedept"
+		Me.subwisedept.Size = New System.Drawing.Size(121, 24)
+		Me.subwisedept.TabIndex = 5
 		'
-		'ComboBox2
+		'subwisesub
 		'
-		Me.ComboBox2.FormattingEnabled = True
-		Me.ComboBox2.Location = New System.Drawing.Point(405, 192)
-		Me.ComboBox2.Name = "ComboBox2"
-		Me.ComboBox2.Size = New System.Drawing.Size(121, 24)
-		Me.ComboBox2.TabIndex = 6
+		Me.subwisesub.FormattingEnabled = True
+		Me.subwisesub.Location = New System.Drawing.Point(405, 192)
+		Me.subwisesub.Name = "subwisesub"
+		Me.subwisesub.Size = New System.Drawing.Size(121, 24)
+		Me.subwisesub.TabIndex = 6
 		'
-		'ComboBox3
+		'subwisesem
 		'
-		Me.ComboBox3.FormattingEnabled = True
-		Me.ComboBox3.Location = New System.Drawing.Point(167, 192)
-		Me.ComboBox3.Name = "ComboBox3"
-		Me.ComboBox3.Size = New System.Drawing.Size(121, 24)
-		Me.ComboBox3.TabIndex = 7
+		Me.subwisesem.FormattingEnabled = True
+		Me.subwisesem.Location = New System.Drawing.Point(167, 192)
+		Me.subwisesem.Name = "subwisesem"
+		Me.subwisesem.Size = New System.Drawing.Size(121, 24)
+		Me.subwisesem.TabIndex = 7
 		'
-		'ComboBox4
+		'subwiseclass
 		'
-		Me.ComboBox4.FormattingEnabled = True
-		Me.ComboBox4.Location = New System.Drawing.Point(405, 133)
-		Me.ComboBox4.Name = "ComboBox4"
-		Me.ComboBox4.Size = New System.Drawing.Size(121, 24)
-		Me.ComboBox4.TabIndex = 8
+		Me.subwiseclass.FormattingEnabled = True
+		Me.subwiseclass.Location = New System.Drawing.Point(405, 133)
+		Me.subwiseclass.Name = "subwiseclass"
+		Me.subwiseclass.Size = New System.Drawing.Size(121, 24)
+		Me.subwiseclass.TabIndex = 8
 		'
 		'rabtcancel
 		'
@@ -190,10 +190,10 @@ Partial Class Form2
 		Me.Controls.Add(Me.DataGridView1)
 		Me.Controls.Add(Me.rabtcancel)
 		Me.Controls.Add(Me.rabtlogin)
-		Me.Controls.Add(Me.ComboBox4)
-		Me.Controls.Add(Me.ComboBox3)
-		Me.Controls.Add(Me.ComboBox2)
-		Me.Controls.Add(Me.ComboBox1)
+		Me.Controls.Add(Me.subwiseclass)
+		Me.Controls.Add(Me.subwisesem)
+		Me.Controls.Add(Me.subwisesub)
+		Me.Controls.Add(Me.subwisedept)
 		Me.Controls.Add(Me.Label5)
 		Me.Controls.Add(Me.Label4)
 		Me.Controls.Add(Me.Label3)
@@ -212,10 +212,10 @@ Partial Class Form2
 	Friend WithEvents Label3 As Label
 	Friend WithEvents Label4 As Label
 	Friend WithEvents Label5 As Label
-	Friend WithEvents ComboBox1 As ComboBox
-	Friend WithEvents ComboBox2 As ComboBox
-	Friend WithEvents ComboBox3 As ComboBox
-	Friend WithEvents ComboBox4 As ComboBox
+	Friend WithEvents subwisedept As ComboBox
+	Friend WithEvents subwisesub As ComboBox
+	Friend WithEvents subwisesem As ComboBox
+	Friend WithEvents subwiseclass As ComboBox
 	Friend WithEvents rabtcancel As Button
 	Friend WithEvents rabtlogin As Button
 	Friend WithEvents DataGridView1 As DataGridView

@@ -140,10 +140,10 @@
     <Compile Include="addcourse.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="subject wise.Designer.vb">
-      <DependentUpon>subject wise.vb</DependentUpon>
+    <Compile Include="subjectwise.Designer.vb">
+      <DependentUpon>subjectwise.vb</DependentUpon>
     </Compile>
-    <Compile Include="subject wise.vb">
+    <Compile Include="subjectwise.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="rough.Designer.vb">
@@ -226,8 +226,8 @@
     <EmbeddedResource Include="splash screen.resx">
       <DependentUpon>splash screen.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="subject wise.resx">
-      <DependentUpon>subject wise.vb</DependentUpon>
+    <EmbeddedResource Include="subjectwise.resx">
+      <DependentUpon>subjectwise.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rough.resx">
       <DependentUpon>rough.vb</DependentUpon>
