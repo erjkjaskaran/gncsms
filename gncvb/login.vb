@@ -56,5 +56,17 @@ Public Class Login
         Application.Exit()
     End Sub
 
-
+    Private Sub up_KeyPress(sender As Object, e As KeyPressEventArgs) Handles up.KeyPress
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
+            sql = "select * from login where un='" & un.Text & "' and up='" & up.Text & "'"
+            dr = Db.Selectqry(sql)
+            dr.Read()
+            If (dr.HasRows) Then
+                main1.Show()
+                Me.Hide()
+            Else
+                MessageBox.Show("Invalid User")
+            End If
+        End If
+    End Sub
 End Class

@@ -76,6 +76,12 @@
     <OutputPath>bin\x86\Release\</OutputPath>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'uconfig|AnyCPU'">
+    <OutputPath>bin\uconfig\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'uconfig|x86'">
+    <OutputPath>bin\x86\uconfig\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />

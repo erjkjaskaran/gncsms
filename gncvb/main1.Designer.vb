@@ -74,22 +74,22 @@ Partial Class main1
         Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClassWiseToolStripMenuItem, Me.SubjectWiseToolStripMenuItem})
         Me.ToolStripMenuItem2.ForeColor = System.Drawing.Color.Gray
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(97, 20)
-        Me.ToolStripMenuItem2.Text = "Search student"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(98, 20)
+        Me.ToolStripMenuItem2.Text = "Search Student"
         '
         'ClassWiseToolStripMenuItem
         '
         Me.ClassWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
         Me.ClassWiseToolStripMenuItem.Name = "ClassWiseToolStripMenuItem"
         Me.ClassWiseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ClassWiseToolStripMenuItem.Text = "class wise"
+        Me.ClassWiseToolStripMenuItem.Text = "Class Wise"
         '
         'SubjectWiseToolStripMenuItem
         '
         Me.SubjectWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
         Me.SubjectWiseToolStripMenuItem.Name = "SubjectWiseToolStripMenuItem"
         Me.SubjectWiseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SubjectWiseToolStripMenuItem.Text = "subject wise"
+        Me.SubjectWiseToolStripMenuItem.Text = "Subject Wise"
         '
         'ToolStripMenuItem3
         '
