@@ -27,13 +27,13 @@ Partial Class main1
 		Me.ReAdmissionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+		Me.ClassWiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+		Me.SubjectWiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.AddNewCourseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.AddNewSubjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.ClassWiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.SubjectWiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.MenuStrip1.SuspendLayout()
 		Me.SuspendLayout()
 		'
@@ -78,6 +78,20 @@ Partial Class main1
 		Me.ToolStripMenuItem2.Size = New System.Drawing.Size(118, 24)
 		Me.ToolStripMenuItem2.Text = "Search student"
 		'
+		'ClassWiseToolStripMenuItem
+		'
+		Me.ClassWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
+		Me.ClassWiseToolStripMenuItem.Name = "ClassWiseToolStripMenuItem"
+		Me.ClassWiseToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.ClassWiseToolStripMenuItem.Text = "class wise"
+		'
+		'SubjectWiseToolStripMenuItem
+		'
+		Me.SubjectWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
+		Me.SubjectWiseToolStripMenuItem.Name = "SubjectWiseToolStripMenuItem"
+		Me.SubjectWiseToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.SubjectWiseToolStripMenuItem.Text = "subject wise"
+		'
 		'ToolStripMenuItem3
 		'
 		Me.ToolStripMenuItem3.ForeColor = System.Drawing.Color.Gray
@@ -113,20 +127,6 @@ Partial Class main1
 		Me.XToolStripMenuItem.Size = New System.Drawing.Size(30, 24)
 		Me.XToolStripMenuItem.Text = "X"
 		'
-		'ClassWiseToolStripMenuItem
-		'
-		Me.ClassWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
-		Me.ClassWiseToolStripMenuItem.Name = "ClassWiseToolStripMenuItem"
-		Me.ClassWiseToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
-		Me.ClassWiseToolStripMenuItem.Text = "class wise"
-		'
-		'SubjectWiseToolStripMenuItem
-		'
-		Me.SubjectWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
-		Me.SubjectWiseToolStripMenuItem.Name = "SubjectWiseToolStripMenuItem"
-		Me.SubjectWiseToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
-		Me.SubjectWiseToolStripMenuItem.Text = "subject wise"
-		'
 		'main1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -138,7 +138,7 @@ Partial Class main1
 		Me.ForeColor = System.Drawing.Color.DimGray
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
 		Me.MainMenuStrip = Me.MenuStrip1
-		Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Margin = New System.Windows.Forms.Padding(4)
 		Me.Name = "main1"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Main Menu"
