@@ -81,14 +81,14 @@ Partial Class main1
         '
         Me.ClassWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
         Me.ClassWiseToolStripMenuItem.Name = "ClassWiseToolStripMenuItem"
-        Me.ClassWiseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ClassWiseToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.ClassWiseToolStripMenuItem.Text = "Class Wise"
         '
         'SubjectWiseToolStripMenuItem
         '
         Me.SubjectWiseToolStripMenuItem.ForeColor = System.Drawing.Color.Gray
         Me.SubjectWiseToolStripMenuItem.Name = "SubjectWiseToolStripMenuItem"
-        Me.SubjectWiseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SubjectWiseToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.SubjectWiseToolStripMenuItem.Text = "Subject Wise"
         '
         'ToolStripMenuItem3

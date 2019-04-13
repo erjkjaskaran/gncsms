@@ -64,7 +64,7 @@ Public Class newadmission
         dr = Db.Selectqry(sql)
         dr.Read()
         Dim a As Integer
-        a = dr("sem")
+        a = CInt(dr("sem"))
         For i = 1 To a
             nmsem.Items.Add(i)
         Next
@@ -83,8 +83,12 @@ Public Class newadmission
         Dim dt As String = nmdob.ToString
 
         Dim dts As String = dt.Substring(44, 10)
+        If (nmcroll.Text = "") Then
+            MessageBox.Show("Enter College Roll No.")
+        ElseIf (nmfirstname.Text = "") Then
+            MessageBox.Show("Enter First Name")
+        End If
 
-        Console.WriteLine(dts)
 
         sql = "insert into s_info values (" + nmcroll.Text + ",""" + nmfirstname.Text + """,""" + nmlastname.Text + """,""" + nmfathername.Text + """,""" + nmmothername.Text + """,""" + dts + """,""" + nmgender.Text + """,""" + nmpa.Text + """,""" + nmca.Text + """," + nmsmnumber.Text + "," + nmpmnumber.Text + ",""" + nmemail.Text + """,""" + nmcbcaste.Text + """,""" + nmreligion.Text + """,""" + nmnational.Text + """," + nmadnumber.Text + "," + nmaincome.Text + ",""" + nmconveyance.Text + """,""" + nmdept.Text + """,""" + nmclass.Text + """,""" + nmsem.Text + """)"
         Db.Updateqry(sql)

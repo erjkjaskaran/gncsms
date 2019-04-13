@@ -31,7 +31,7 @@ Public Class rough
         dr = Db.Selectqry(Sql)
         dr.Read()
         Dim a As Integer
-        a = dr("sem")
+        a = CInt(dr("sem"))
         For i = 1 To a
             nmsem.Items.Add(i)
         Next

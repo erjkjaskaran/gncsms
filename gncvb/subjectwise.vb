@@ -14,8 +14,8 @@ Public Class Form2
 		dr = Db.Selectqry(sql)
 		dr.Read()
 		Dim a As Integer
-		a = dr("sem")
-		For i = 1 To a
+        a = CInt(dr("sem"))
+        For i = 1 To a
 			subwisesem.Items.Add(i)
 		Next
 	End Sub

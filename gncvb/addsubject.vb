@@ -10,7 +10,8 @@ Public Class Addsubject
     Private Sub Add_new_courses_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         asdept.Text = addcourse.adcdept.Text
         asclass.Text = addcourse.adcclass.Text
-        Dim i As Integer = addcourse.adcsem.Text
+        Dim i As Integer
+        i = CInt(addcourse.adcsem.Text)
         For x = 1 To i
             assem.Items.Add(x)
         Next

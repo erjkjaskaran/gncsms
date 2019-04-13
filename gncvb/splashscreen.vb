@@ -1,4 +1,4 @@
-﻿Public Class splash
+﻿Public Class splashscreen
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(1)
         Label2.Text = ProgressBar1.Value & "%"

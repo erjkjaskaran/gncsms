@@ -10,7 +10,8 @@ Public Class setfee
     Private Sub Setfee_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         sfdept.Text = addcourse.adcdept.Text
         sfclass.Text = addcourse.adcclass.Text
-        Dim i As Integer = addcourse.adcsem.Text
+        Dim i As Integer
+        i = CInt(addcourse.adcsem.Text)
         For x = 1 To i
             sfsem.Items.Add(x)
         Next
