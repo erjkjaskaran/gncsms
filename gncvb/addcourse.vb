@@ -42,7 +42,17 @@ Public Class addcourse
     End Sub
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles btnfee.Click
-        setfee.Show()
+        If (adcdept.Text = "") Then
+            MessageBox.Show("Select existing Department or enter new Department")
+        ElseIf (adcclass.Text = "") Then
+            MessageBox.Show("Enter Course Name")
+        ElseIf (adcsem.Text = "") Then
+            MessageBox.Show("Enter the Total No.of semester in the Course")
+        Else
+
+            setfee.Show()
+        End If
+
 
     End Sub
 
