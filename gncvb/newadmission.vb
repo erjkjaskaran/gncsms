@@ -89,7 +89,6 @@ Public Class newadmission
 
     Private Sub Nmbtlogin_Click(sender As Object, e As EventArgs) Handles Nmbtlogin.Click
         Dim dt As String = nmdob.ToString
-
         Dim dts As String = dt.Substring(44, 10)
         If (nmcroll.Text = "") Then
             MessageBox.Show("Enter College Roll No.")
