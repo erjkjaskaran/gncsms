@@ -57,12 +57,12 @@ Public Class setfee
                 End Try
 
                 If (c) Then
-                    MessageBox.Show("Subject Set Successfully")
+                    MessageBox.Show("Fees Set Successfully")
                     Me.Close()
                     addcourse.chkfee.Checked = True
                 End If
             ElseIf (b) Then
-                MessageBox.Show("Subject Set Successfully")
+                MessageBox.Show("Fees Set Successfully")
                 Me.Close()
                 addcourse.chkfee.Checked = True
             End If

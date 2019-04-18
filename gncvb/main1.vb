@@ -41,5 +41,15 @@
 
     End Sub
 
+    Private Sub ChangeFeesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangeFeesToolStripMenuItem.Click
+        Me.Hide()
+        changefee.Show()
 
+    End Sub
+
+    Private Sub ChangeSubjectToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangeSubjectToolStripMenuItem.Click
+        Me.Hide()
+        changesub.Show()
+
+    End Sub
 End Class

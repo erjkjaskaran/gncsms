@@ -33,6 +33,8 @@ Partial Class main1
         Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddNewCourseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddNewSubjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChangeFeesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ChangeSubjectToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.XToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -100,7 +102,7 @@ Partial Class main1
         '
         'ToolStripMenuItem4
         '
-        Me.ToolStripMenuItem4.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddNewCourseToolStripMenuItem, Me.AddNewSubjectToolStripMenuItem})
+        Me.ToolStripMenuItem4.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddNewCourseToolStripMenuItem, Me.AddNewSubjectToolStripMenuItem, Me.ChangeFeesToolStripMenuItem, Me.ChangeSubjectToolStripMenuItem})
         Me.ToolStripMenuItem4.ForeColor = System.Drawing.Color.DimGray
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
         Me.ToolStripMenuItem4.Size = New System.Drawing.Size(58, 20)
@@ -110,15 +112,29 @@ Partial Class main1
         '
         Me.AddNewCourseToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
         Me.AddNewCourseToolStripMenuItem.Name = "AddNewCourseToolStripMenuItem"
-        Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AddNewCourseToolStripMenuItem.Text = "Add New Course"
         '
         'AddNewSubjectToolStripMenuItem
         '
         Me.AddNewSubjectToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
         Me.AddNewSubjectToolStripMenuItem.Name = "AddNewSubjectToolStripMenuItem"
-        Me.AddNewSubjectToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.AddNewSubjectToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AddNewSubjectToolStripMenuItem.Text = "Add New Subject"
+        '
+        'ChangeFeesToolStripMenuItem
+        '
+        Me.ChangeFeesToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
+        Me.ChangeFeesToolStripMenuItem.Name = "ChangeFeesToolStripMenuItem"
+        Me.ChangeFeesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChangeFeesToolStripMenuItem.Text = "Change Fees"
+        '
+        'ChangeSubjectToolStripMenuItem
+        '
+        Me.ChangeSubjectToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
+        Me.ChangeSubjectToolStripMenuItem.Name = "ChangeSubjectToolStripMenuItem"
+        Me.ChangeSubjectToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ChangeSubjectToolStripMenuItem.Text = "Change Subject"
         '
         'XToolStripMenuItem
         '
@@ -160,4 +176,6 @@ Partial Class main1
     Friend WithEvents AddNewSubjectToolStripMenuItem As ToolStripMenuItem
 	Friend WithEvents ClassWiseToolStripMenuItem As ToolStripMenuItem
 	Friend WithEvents SubjectWiseToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChangeFeesToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ChangeSubjectToolStripMenuItem As ToolStripMenuItem
 End Class

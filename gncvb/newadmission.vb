@@ -54,10 +54,6 @@ Public Class newadmission
         End If
     End Sub
 
-    Private Sub TextBox7_TextChanged(sender As Object, e As EventArgs) Handles nmconveyance.TextChanged
-
-    End Sub
-
     Private Sub cbclass_SelectedIndexChanged(sender As Object, e As EventArgs) Handles nmclass.SelectedIndexChanged
         nmsem.Items.Clear()
 
@@ -80,6 +76,7 @@ Public Class newadmission
         End While
         sql = "select fess from total_fees where dept='" + nmdept.Text + "' and sem='" + nmsem.Text + "' and class='" + nmclass.Text + "'"
         dr = Db.Selectqry(sql)
+        dr.Read()
         If (dr.HasRows) Then
             Console.WriteLine("abcbbcbcbcbc")
         End If
@@ -194,5 +191,11 @@ Public Class newadmission
         Dim i As Integer
         i = CInt(nmtotalfees.Text) - CInt(nmammountpaid.Text)
         nmamountleft.Text = CType(i, String)
+    End Sub
+
+    Private Sub nmcroll_KeyPress(sender As Object, e As KeyPressEventArgs) Handles nmcroll.KeyPress
+        If Not Char.IsNumber(e.KeyChar) AndAlso Not Char.IsControl(e.KeyChar) Then
+            e.Handled = True
+        End If
     End Sub
 End Class

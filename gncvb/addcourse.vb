@@ -32,6 +32,9 @@ Public Class addcourse
             adcdept.Text = ""
             adcclass.Text = ""
             adcsem.Text = ""
+            chkfee.Checked = False
+            chksub.Checked = False
+            adcdept.Items.Add(adcdept.Text)
         ElseIf chkfee.Checked Then
             MessageBox.Show("Add Atleast one Subject")
         ElseIf chksub.Checked Then
