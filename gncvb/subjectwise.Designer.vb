@@ -95,7 +95,7 @@ Partial Class Form2
 		Me.subwisedept.Location = New System.Drawing.Point(167, 133)
 		Me.subwisedept.Name = "subwisedept"
 		Me.subwisedept.Size = New System.Drawing.Size(121, 24)
-		Me.subwisedept.TabIndex = 5
+		Me.subwisedept.TabIndex = 1
 		'
 		'subwisesub
 		'
@@ -103,7 +103,7 @@ Partial Class Form2
 		Me.subwisesub.Location = New System.Drawing.Point(405, 192)
 		Me.subwisesub.Name = "subwisesub"
 		Me.subwisesub.Size = New System.Drawing.Size(121, 24)
-		Me.subwisesub.TabIndex = 6
+		Me.subwisesub.TabIndex = 4
 		'
 		'subwisesem
 		'
@@ -111,7 +111,7 @@ Partial Class Form2
 		Me.subwisesem.Location = New System.Drawing.Point(167, 192)
 		Me.subwisesem.Name = "subwisesem"
 		Me.subwisesem.Size = New System.Drawing.Size(121, 24)
-		Me.subwisesem.TabIndex = 7
+		Me.subwisesem.TabIndex = 3
 		'
 		'subwiseclass
 		'
@@ -119,7 +119,7 @@ Partial Class Form2
 		Me.subwiseclass.Location = New System.Drawing.Point(405, 133)
 		Me.subwiseclass.Name = "subwiseclass"
 		Me.subwiseclass.Size = New System.Drawing.Size(121, 24)
-		Me.subwiseclass.TabIndex = 8
+		Me.subwiseclass.TabIndex = 2
 		'
 		'rabtcancel
 		'
@@ -136,7 +136,7 @@ Partial Class Form2
 		Me.rabtcancel.Margin = New System.Windows.Forms.Padding(0)
 		Me.rabtcancel.Name = "rabtcancel"
 		Me.rabtcancel.Size = New System.Drawing.Size(137, 34)
-		Me.rabtcancel.TabIndex = 70
+		Me.rabtcancel.TabIndex = 6
 		Me.rabtcancel.Text = "Cancel"
 		Me.rabtcancel.UseVisualStyleBackColor = False
 		'
@@ -155,7 +155,7 @@ Partial Class Form2
 		Me.rabtlogin.Margin = New System.Windows.Forms.Padding(0)
 		Me.rabtlogin.Name = "rabtlogin"
 		Me.rabtlogin.Size = New System.Drawing.Size(137, 34)
-		Me.rabtlogin.TabIndex = 69
+		Me.rabtlogin.TabIndex = 5
 		Me.rabtlogin.Text = "Submit"
 		Me.rabtlogin.UseVisualStyleBackColor = False
 		'

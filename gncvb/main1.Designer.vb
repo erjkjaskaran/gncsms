@@ -46,7 +46,7 @@ Partial Class main1
 		Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
 		Me.MenuStrip1.Name = "MenuStrip1"
 		Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-		Me.MenuStrip1.Size = New System.Drawing.Size(808, 28)
+		Me.MenuStrip1.Size = New System.Drawing.Size(575, 28)
 		Me.MenuStrip1.TabIndex = 0
 		Me.MenuStrip1.Text = "MenuStrip1"
 		'
@@ -141,12 +141,12 @@ Partial Class main1
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.GhostWhite
 		Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-		Me.ClientSize = New System.Drawing.Size(808, 549)
+		Me.ClientSize = New System.Drawing.Size(575, 549)
 		Me.Controls.Add(Me.MenuStrip1)
 		Me.ForeColor = System.Drawing.Color.DimGray
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
 		Me.MainMenuStrip = Me.MenuStrip1
-		Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+		Me.Margin = New System.Windows.Forms.Padding(4)
 		Me.Name = "main1"
 		Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
 		Me.Text = "Main Menu"

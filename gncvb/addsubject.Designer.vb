@@ -54,7 +54,7 @@ Partial Class Addsubject
 		Me.assem.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
 		Me.assem.Name = "assem"
 		Me.assem.Size = New System.Drawing.Size(315, 24)
-		Me.assem.TabIndex = 80
+		Me.assem.TabIndex = 3
 		Me.assem.Text = "Select"
 		'
 		'Label26
@@ -107,7 +107,7 @@ Partial Class Addsubject
 		Me.assub.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
 		Me.assub.Name = "assub"
 		Me.assub.Size = New System.Drawing.Size(315, 22)
-		Me.assub.TabIndex = 81
+		Me.assub.TabIndex = 4
 		'
 		'asbtcncel
 		'
@@ -124,7 +124,7 @@ Partial Class Addsubject
 		Me.asbtcncel.Margin = New System.Windows.Forms.Padding(0)
 		Me.asbtcncel.Name = "asbtcncel"
 		Me.asbtcncel.Size = New System.Drawing.Size(207, 48)
-		Me.asbtcncel.TabIndex = 83
+		Me.asbtcncel.TabIndex = 7
 		Me.asbtcncel.Text = "Cancel"
 		Me.asbtcncel.UseVisualStyleBackColor = False
 		'
@@ -143,7 +143,7 @@ Partial Class Addsubject
 		Me.asbtsubmit.Margin = New System.Windows.Forms.Padding(0)
 		Me.asbtsubmit.Name = "asbtsubmit"
 		Me.asbtsubmit.Size = New System.Drawing.Size(207, 48)
-		Me.asbtsubmit.TabIndex = 82
+		Me.asbtsubmit.TabIndex = 6
 		Me.asbtsubmit.Text = "Submit"
 		Me.asbtsubmit.UseVisualStyleBackColor = False
 		'
@@ -154,7 +154,7 @@ Partial Class Addsubject
 		Me.asdept.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
 		Me.asdept.Name = "asdept"
 		Me.asdept.Size = New System.Drawing.Size(315, 22)
-		Me.asdept.TabIndex = 84
+		Me.asdept.TabIndex = 1
 		'
 		'asclass
 		'
@@ -163,7 +163,7 @@ Partial Class Addsubject
 		Me.asclass.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
 		Me.asclass.Name = "asclass"
 		Me.asclass.Size = New System.Drawing.Size(315, 22)
-		Me.asclass.TabIndex = 85
+		Me.asclass.TabIndex = 2
 		'
 		'asbtnaddmore
 		'
@@ -180,7 +180,7 @@ Partial Class Addsubject
 		Me.asbtnaddmore.Margin = New System.Windows.Forms.Padding(0)
 		Me.asbtnaddmore.Name = "asbtnaddmore"
 		Me.asbtnaddmore.Size = New System.Drawing.Size(273, 48)
-		Me.asbtnaddmore.TabIndex = 86
+		Me.asbtnaddmore.TabIndex = 5
 		Me.asbtnaddmore.Text = "Add More Subject"
 		Me.asbtnaddmore.UseVisualStyleBackColor = False
 		'
