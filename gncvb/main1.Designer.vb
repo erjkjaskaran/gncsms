@@ -46,12 +46,13 @@ Partial Class main1
 		Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
 		Me.MenuStrip1.Name = "MenuStrip1"
 		Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-		Me.MenuStrip1.Size = New System.Drawing.Size(575, 28)
+		Me.MenuStrip1.Size = New System.Drawing.Size(701, 28)
 		Me.MenuStrip1.TabIndex = 0
 		Me.MenuStrip1.Text = "MenuStrip1"
 		'
 		'NewAdmissionToolStripMenuItem
 		'
+		Me.NewAdmissionToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control
 		Me.NewAdmissionToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.NewAdmissionToolStripMenuItem.Name = "NewAdmissionToolStripMenuItem"
 		Me.NewAdmissionToolStripMenuItem.Size = New System.Drawing.Size(124, 24)
@@ -59,6 +60,7 @@ Partial Class main1
 		'
 		'ReAdmissionToolStripMenuItem
 		'
+		Me.ReAdmissionToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control
 		Me.ReAdmissionToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.ReAdmissionToolStripMenuItem.Name = "ReAdmissionToolStripMenuItem"
 		Me.ReAdmissionToolStripMenuItem.Size = New System.Drawing.Size(117, 24)
@@ -66,6 +68,7 @@ Partial Class main1
 		'
 		'ToolStripMenuItem1
 		'
+		Me.ToolStripMenuItem1.BackColor = System.Drawing.SystemColors.Control
 		Me.ToolStripMenuItem1.ForeColor = System.Drawing.Color.Gray
 		Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
 		Me.ToolStripMenuItem1.Size = New System.Drawing.Size(105, 24)
@@ -73,6 +76,7 @@ Partial Class main1
 		'
 		'ToolStripMenuItem2
 		'
+		Me.ToolStripMenuItem2.BackColor = System.Drawing.SystemColors.Control
 		Me.ToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ClassWiseToolStripMenuItem, Me.SubjectWiseToolStripMenuItem})
 		Me.ToolStripMenuItem2.ForeColor = System.Drawing.Color.Gray
 		Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
@@ -95,6 +99,7 @@ Partial Class main1
 		'
 		'ToolStripMenuItem4
 		'
+		Me.ToolStripMenuItem4.BackColor = System.Drawing.SystemColors.Control
 		Me.ToolStripMenuItem4.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddNewCourseToolStripMenuItem, Me.AddNewSubjectToolStripMenuItem, Me.ChangeFeesToolStripMenuItem, Me.ChangeSubjectToolStripMenuItem})
 		Me.ToolStripMenuItem4.ForeColor = System.Drawing.Color.DimGray
 		Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
@@ -105,32 +110,33 @@ Partial Class main1
 		'
 		Me.AddNewCourseToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.AddNewCourseToolStripMenuItem.Name = "AddNewCourseToolStripMenuItem"
-		Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
 		Me.AddNewCourseToolStripMenuItem.Text = "Add New Course"
 		'
 		'AddNewSubjectToolStripMenuItem
 		'
 		Me.AddNewSubjectToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.AddNewSubjectToolStripMenuItem.Name = "AddNewSubjectToolStripMenuItem"
-		Me.AddNewSubjectToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.AddNewSubjectToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
 		Me.AddNewSubjectToolStripMenuItem.Text = "Add New Subject"
 		'
 		'ChangeFeesToolStripMenuItem
 		'
 		Me.ChangeFeesToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.ChangeFeesToolStripMenuItem.Name = "ChangeFeesToolStripMenuItem"
-		Me.ChangeFeesToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.ChangeFeesToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
 		Me.ChangeFeesToolStripMenuItem.Text = "Change Fees"
 		'
 		'ChangeSubjectToolStripMenuItem
 		'
 		Me.ChangeSubjectToolStripMenuItem.ForeColor = System.Drawing.Color.DimGray
 		Me.ChangeSubjectToolStripMenuItem.Name = "ChangeSubjectToolStripMenuItem"
-		Me.ChangeSubjectToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
+		Me.ChangeSubjectToolStripMenuItem.Size = New System.Drawing.Size(199, 26)
 		Me.ChangeSubjectToolStripMenuItem.Text = "Change Subject"
 		'
 		'XToolStripMenuItem
 		'
+		Me.XToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control
 		Me.XToolStripMenuItem.Name = "XToolStripMenuItem"
 		Me.XToolStripMenuItem.Size = New System.Drawing.Size(30, 24)
 		Me.XToolStripMenuItem.Text = "X"
@@ -140,8 +146,9 @@ Partial Class main1
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.Color.GhostWhite
+		Me.BackgroundImage = Global.gncvb.My.Resources.Resources.IMG_20190424_113736ed
 		Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-		Me.ClientSize = New System.Drawing.Size(575, 549)
+		Me.ClientSize = New System.Drawing.Size(701, 450)
 		Me.Controls.Add(Me.MenuStrip1)
 		Me.ForeColor = System.Drawing.Color.DimGray
 		Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

@@ -41,11 +41,11 @@ Partial Class Addsubject
 		Me.Label1.AutoSize = True
 		Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
 		Me.Label1.ForeColor = System.Drawing.Color.Teal
-		Me.Label1.Location = New System.Drawing.Point(131, 42)
+		Me.Label1.Location = New System.Drawing.Point(201, 32)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(460, 48)
+		Me.Label1.Size = New System.Drawing.Size(277, 48)
 		Me.Label1.TabIndex = 0
-		Me.Label1.Text = "Add / Change Subject"
+		Me.Label1.Text = "Add  Subject"
 		'
 		'assem
 		'

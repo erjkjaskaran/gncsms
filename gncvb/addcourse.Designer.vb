@@ -44,9 +44,9 @@ Partial Class addcourse
 		Me.Label1.ForeColor = System.Drawing.Color.Teal
 		Me.Label1.Location = New System.Drawing.Point(128, 42)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(372, 48)
+		Me.Label1.Size = New System.Drawing.Size(351, 48)
 		Me.Label1.TabIndex = 1
-		Me.Label1.Text = "Add New Courses"
+		Me.Label1.Text = "Add New Course"
 		'
 		'Label26
 		'

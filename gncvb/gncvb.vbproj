@@ -325,6 +325,14 @@
     <Content Include="GNC.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\IMG-0870.jpg" />
+    <None Include="Resources\IMG-0865.jpg" />
+    <None Include="Resources\IMG_20190424_113736ed.jpg" />
+    <None Include="Resources\IMG_20190424_1137361.jpg" />
+    <None Include="Resources\IMG_20190424_113736.jpg" />
+    <None Include="Resources\beach-bird-s-eye-view-coast-50594.jpg" />
+    <None Include="Resources\college2.jpg" />
+    <None Include="Resources\college pic.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
