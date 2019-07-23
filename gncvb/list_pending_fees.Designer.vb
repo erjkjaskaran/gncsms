@@ -29,8 +29,9 @@ Partial Class list_pending_fees
         Me.Label3 = New System.Windows.Forms.Label()
         Me.pfbtcancel = New System.Windows.Forms.Button()
         Me.pfbtsubmit = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.pfsem = New System.Windows.Forms.ComboBox()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -39,7 +40,7 @@ Partial Class list_pending_fees
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Verdana", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
-        Me.Label1.Location = New System.Drawing.Point(49, 17)
+        Me.Label1.Location = New System.Drawing.Point(128, 20)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(581, 38)
@@ -49,8 +50,8 @@ Partial Class list_pending_fees
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.Navy
-        Me.Label2.Location = New System.Drawing.Point(34, 81)
+        Me.Label2.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label2.Location = New System.Drawing.Point(34, 88)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(62, 13)
@@ -60,7 +61,7 @@ Partial Class list_pending_fees
         'pfdept
         '
         Me.pfdept.FormattingEnabled = True
-        Me.pfdept.Location = New System.Drawing.Point(110, 78)
+        Me.pfdept.Location = New System.Drawing.Point(110, 85)
         Me.pfdept.Margin = New System.Windows.Forms.Padding(2)
         Me.pfdept.Name = "pfdept"
         Me.pfdept.Size = New System.Drawing.Size(92, 21)
@@ -69,7 +70,7 @@ Partial Class list_pending_fees
         'pfclass
         '
         Me.pfclass.FormattingEnabled = True
-        Me.pfclass.Location = New System.Drawing.Point(277, 78)
+        Me.pfclass.Location = New System.Drawing.Point(269, 85)
         Me.pfclass.Margin = New System.Windows.Forms.Padding(2)
         Me.pfclass.Name = "pfclass"
         Me.pfclass.Size = New System.Drawing.Size(92, 21)
@@ -78,8 +79,8 @@ Partial Class list_pending_fees
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.ForeColor = System.Drawing.Color.Navy
-        Me.Label3.Location = New System.Drawing.Point(232, 81)
+        Me.Label3.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label3.Location = New System.Drawing.Point(224, 88)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(32, 13)
@@ -97,7 +98,7 @@ Partial Class list_pending_fees
         Me.pfbtcancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pfbtcancel.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pfbtcancel.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.pfbtcancel.Location = New System.Drawing.Point(534, 71)
+        Me.pfbtcancel.Location = New System.Drawing.Point(674, 78)
         Me.pfbtcancel.Margin = New System.Windows.Forms.Padding(0)
         Me.pfbtcancel.Name = "pfbtcancel"
         Me.pfbtcancel.Size = New System.Drawing.Size(114, 30)
@@ -116,24 +117,13 @@ Partial Class list_pending_fees
         Me.pfbtsubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pfbtsubmit.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pfbtsubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.pfbtsubmit.Location = New System.Drawing.Point(399, 71)
+        Me.pfbtsubmit.Location = New System.Drawing.Point(539, 78)
         Me.pfbtsubmit.Margin = New System.Windows.Forms.Padding(0)
         Me.pfbtsubmit.Name = "pfbtsubmit"
         Me.pfbtsubmit.Size = New System.Drawing.Size(114, 30)
         Me.pfbtsubmit.TabIndex = 69
         Me.pfbtsubmit.Text = "Submit"
         Me.pfbtsubmit.UseVisualStyleBackColor = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label4.Location = New System.Drawing.Point(649, 7)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(14, 13)
-        Me.Label4.TabIndex = 71
-        Me.Label4.Text = "X"
         '
         'DataGridView1
         '
@@ -143,17 +133,38 @@ Partial Class list_pending_fees
         Me.DataGridView1.Location = New System.Drawing.Point(37, 140)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
-        Me.DataGridView1.Size = New System.Drawing.Size(611, 240)
+        Me.DataGridView1.Size = New System.Drawing.Size(754, 301)
         Me.DataGridView1.TabIndex = 72
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label4.Location = New System.Drawing.Point(376, 88)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(51, 13)
+        Me.Label4.TabIndex = 74
+        Me.Label4.Text = "Semester"
+        '
+        'pfsem
+        '
+        Me.pfsem.FormattingEnabled = True
+        Me.pfsem.Location = New System.Drawing.Point(431, 85)
+        Me.pfsem.Margin = New System.Windows.Forms.Padding(2)
+        Me.pfsem.Name = "pfsem"
+        Me.pfsem.Size = New System.Drawing.Size(92, 21)
+        Me.pfsem.TabIndex = 73
         '
         'list_pending_fees
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.GhostWhite
-        Me.ClientSize = New System.Drawing.Size(687, 416)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.ClientSize = New System.Drawing.Size(843, 489)
         Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.pfsem)
+        Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.pfbtcancel)
         Me.Controls.Add(Me.pfbtsubmit)
         Me.Controls.Add(Me.Label3)
@@ -178,6 +189,7 @@ Partial Class list_pending_fees
 	Friend WithEvents Label3 As Label
     Friend WithEvents pfbtcancel As Button
     Friend WithEvents pfbtsubmit As Button
-	Friend WithEvents Label4 As Label
     Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Label4 As Label
+    Friend WithEvents pfsem As ComboBox
 End Class

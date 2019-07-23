@@ -47,9 +47,8 @@
 
     End Sub
 
-    Private Sub ChangeSubjectToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangeSubjectToolStripMenuItem.Click
+    Private Sub ChangeSubjectToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ChangeSubjectToolStripMenuItem.Click
         Me.Hide()
         changesub.Show()
-
     End Sub
 End Class

@@ -43,23 +43,29 @@ Public Class changesub
     Private Sub cssem_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cssem.SelectedIndexChanged
         Try
             csoldsub.Items.Clear()
-            Sql = "select a.subject as sub from course_1 as a, courses as b where a.class=b.class and b.dept='" + csdept.Text + "' and a.class='" + csclass.Text + "' and a.sem='" + cssem.Text + "'"
+            Sql = "select subject from course_1 where class='" + csclass.Text + "' and sem=" + cssem.Text
             dr = Db.Selectqry(Sql)
             While (dr.Read)
-                csoldsub.Items.Add(dr("sub"))
+                csoldsub.Items.Add(dr("subject"))
             End While
         Catch ex As Exception
-
+            MessageBox.Show(String.Format("Error: {0}", ex.Message))
         End Try
     End Sub
 
     Private Sub sfbtsubmit_Click(sender As Object, e As EventArgs) Handles sfbtsubmit.Click
         Try
-            Sql = "Update course_1 set subject='" + csnewsub.Text + "' where class='" + csclass.Text + "' and sem='" + cssem.Text + "' and subject='" + csoldsub.Text + "'"
+            Sql = "Update course_1 set subject='" + csnewsub.Text + "' where class='" + csclass.Text + "' and sem=" + cssem.Text + " and subject='" + csoldsub.Text + "'"
             Db.Updateqry(Sql)
             MessageBox.Show("Subject Updated Succesfully")
         Catch ex As Exception
             MessageBox.Show(String.Format("Error: {0}", ex.Message))
         End Try
+    End Sub
+
+    Private Sub sfbtcncel_Click(sender As Object, e As EventArgs) Handles sfbtcncel.Click
+        Me.Close()
+        main1.Show()
+
     End Sub
 End Class

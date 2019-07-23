@@ -1720,6 +1720,8 @@ Partial Public Class GNCDataSet
         
         Private columncroll As Global.System.Data.DataColumn
         
+        Private columnremaining_fee As Global.System.Data.DataColumn
+        
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub New()
@@ -1780,6 +1782,14 @@ Partial Public Class GNCDataSet
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public ReadOnly Property remaining_feeColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnremaining_fee
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Browsable(false)>  _
         Public ReadOnly Property Count() As Integer
@@ -1816,9 +1826,9 @@ Partial Public Class GNCDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
-        Public Overloads Function Addstudent_feesRow(ByVal fees_paid As String, ByVal _date As String, ByVal croll As String) As student_feesRow
+        Public Overloads Function Addstudent_feesRow(ByVal fees_paid As String, ByVal _date As String, ByVal croll As String, ByVal remaining_fee As Integer) As student_feesRow
             Dim rowstudent_feesRow As student_feesRow = CType(Me.NewRow,student_feesRow)
-            Dim columnValuesArray() As Object = New Object() {fees_paid, _date, croll}
+            Dim columnValuesArray() As Object = New Object() {fees_paid, _date, croll, remaining_fee}
             rowstudent_feesRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowstudent_feesRow)
             Return rowstudent_feesRow
@@ -1844,6 +1854,7 @@ Partial Public Class GNCDataSet
             Me.columnfees_paid = MyBase.Columns("fees_paid")
             Me.columndate = MyBase.Columns("date")
             Me.columncroll = MyBase.Columns("croll")
+            Me.columnremaining_fee = MyBase.Columns("remaining_fee")
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -1858,6 +1869,8 @@ Partial Public Class GNCDataSet
             MyBase.Columns.Add(Me.columndate)
             Me.columncroll = New Global.System.Data.DataColumn("croll", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columncroll)
+            Me.columnremaining_fee = New Global.System.Data.DataColumn("remaining_fee", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnremaining_fee)
             Me.columnfees_paid.MaxLength = 255
             Me.columndate.MaxLength = 255
             Me.columncroll.MaxLength = 255
@@ -4278,6 +4291,21 @@ Partial Public Class GNCDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Property remaining_fee() As Integer
+            Get
+                Try 
+                    Return CType(Me(Me.tablestudent_fees.remaining_feeColumn),Integer)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'remaining_fee' in table 'student_fees' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tablestudent_fees.remaining_feeColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Function Isfees_paidNull() As Boolean
             Return Me.IsNull(Me.tablestudent_fees.fees_paidColumn)
         End Function
@@ -4310,6 +4338,18 @@ Partial Public Class GNCDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
         Public Sub SetcrollNull()
             Me(Me.tablestudent_fees.crollColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Function Isremaining_feeNull() As Boolean
+            Return Me.IsNull(Me.tablestudent_fees.remaining_feeColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")>  _
+        Public Sub Setremaining_feeNull()
+            Me(Me.tablestudent_fees.remaining_feeColumn) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -7309,6 +7349,7 @@ Namespace GNCDataSetTableAdapters
             tableMapping.ColumnMappings.Add("fees_paid", "fees_paid")
             tableMapping.ColumnMappings.Add("date", "date")
             tableMapping.ColumnMappings.Add("croll", "croll")
+            tableMapping.ColumnMappings.Add("remaining_fee", "remaining_fee")
             Me._adapter.TableMappings.Add(tableMapping)
             Me._adapter.DeleteCommand = New Global.System.Data.OleDb.OleDbCommand()
             Me._adapter.DeleteCommand.Connection = Me.Connection
@@ -7325,11 +7366,13 @@ Namespace GNCDataSetTableAdapters
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_date", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "date", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.InsertCommand = New Global.System.Data.OleDb.OleDbCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
-            Me._adapter.InsertCommand.CommandText = "INSERT INTO `student_fees` (`fees_paid`, `date`, `croll`) VALUES (?, ?, ?)"
+            Me._adapter.InsertCommand.CommandText = "INSERT INTO `student_fees` (`fees_paid`, `date`, `croll`, `remaining_fee`) VALUES"& _ 
+                " (?, ?, ?, ?)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("fees_paid", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "fees_paid", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("date", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "date", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("fees_paid", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "fees_paid", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("date", Global.System.Data.OleDb.OleDbType.[Date], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "date", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("croll", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "croll", Global.System.Data.DataRowVersion.Current, false, Nothing))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("remaining_fee", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "remaining_fee", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand = New Global.System.Data.OleDb.OleDbCommand()
             Me._adapter.UpdateCommand.Connection = Me.Connection
             Me._adapter.UpdateCommand.CommandText = "UPDATE `student_fees` SET `c_rollnumber` = ?, `fees_paid` = ?, `date` = ? WHERE ("& _ 
@@ -7362,7 +7405,7 @@ Namespace GNCDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.OleDb.OleDbCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.OleDb.OleDbCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT fees_paid, [date], croll FROM student_fees"
+            Me._commandCollection(0).CommandText = "SELECT fees_paid, [date], croll, remaining_fee FROM student_fees"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
         End Sub
         
@@ -7464,21 +7507,26 @@ Namespace GNCDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
-        Public Overloads Overridable Function Insert(ByVal fees_paid As String, ByVal _date As String, ByVal croll As String) As Integer
-            If (fees_paid Is Nothing) Then
+        Public Overloads Overridable Function Insert(ByVal fees_paid As Global.System.Nullable(Of Integer), ByVal _date As Global.System.Nullable(Of Date), ByVal croll As String, ByVal remaining_fee As Global.System.Nullable(Of Integer)) As Integer
+            If (fees_paid.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(0).Value = CType(fees_paid.Value,Integer)
+            Else
                 Me.Adapter.InsertCommand.Parameters(0).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(0).Value = CType(fees_paid,String)
             End If
-            If (_date Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(1).Value = Global.System.DBNull.Value
+            If (_date.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(1).Value = CType(_date.Value,Date)
             Else
-                Me.Adapter.InsertCommand.Parameters(1).Value = CType(_date,String)
+                Me.Adapter.InsertCommand.Parameters(1).Value = Global.System.DBNull.Value
             End If
             If (croll Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(2).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.InsertCommand.Parameters(2).Value = CType(croll,String)
+            End If
+            If (remaining_fee.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(3).Value = CType(remaining_fee.Value,Integer)
+            Else
+                Me.Adapter.InsertCommand.Parameters(3).Value = Global.System.DBNull.Value
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
