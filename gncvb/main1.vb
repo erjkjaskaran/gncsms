@@ -21,11 +21,11 @@
 		Me.Hide()
 	End Sub
 
-    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
-        rough.Show()
-    End Sub
+	Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs)
+		rough.Show()
+	End Sub
 
-    Private Sub AddNewCourseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewCourseToolStripMenuItem.Click
+	Private Sub AddNewCourseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewCourseToolStripMenuItem.Click
         addcourse.Show()
         Me.Hide()
     End Sub
@@ -51,4 +51,8 @@
         Me.Hide()
         changesub.Show()
     End Sub
+
+	Private Sub main1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+	End Sub
 End Class

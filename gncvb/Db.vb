@@ -7,8 +7,8 @@ Module Db
     Dim dr As OleDbDataReader
 
     Public Function Selectqry(a As String) As OleDbDataReader
-        ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\my pc\source\repos\gncvb\gncvb\GNC.mdb"
-        Dim Connection As New OleDbConnection(ConnectionString)
+		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\ASUS\source\repos\erjkjaskaran\gncvb\gncvb\GNC.mdb"
+		Dim Connection As New OleDbConnection(ConnectionString)
         Connection.Open()
         cmd1 = New OleDb.OleDbCommand(a, Connection)
         dr = cmd1.ExecuteReader()
@@ -16,8 +16,8 @@ Module Db
     End Function
 
     Sub Updateqry(a As String)
-        ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\my pc\source\repos\gncvb\gncvb\GNC.mdb"
-        Dim Connection As New OleDbConnection(ConnectionString)
+		ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\ASUS\source\repos\erjkjaskaran\gncvb\gncvb\GNC.mdb"
+		Dim Connection As New OleDbConnection(ConnectionString)
         Connection.Open()
         cmd1 = New OleDb.OleDbCommand(a, Connection)
         cmd1.ExecuteNonQuery()

@@ -87,10 +87,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>D64B981D4B8945DB2CB9EB8DA41192E4423DADBB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>6A9D47B62CC38752D265A571EDED84518120810F</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>gncvb_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>gncvb_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -306,6 +306,7 @@
     <None Include="GNCDataSet1.xss">
       <DependentUpon>GNCDataSet1.xsd</DependentUpon>
     </None>
+    <None Include="gncvb_1_TemporaryKey.pfx" />
     <None Include="gncvb_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -324,6 +325,14 @@
     <Content Include="GNC.mdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\IMG-0870.jpg" />
+    <None Include="Resources\IMG-0865.jpg" />
+    <None Include="Resources\IMG_20190424_113736ed.jpg" />
+    <None Include="Resources\IMG_20190424_1137361.jpg" />
+    <None Include="Resources\IMG_20190424_113736.jpg" />
+    <None Include="Resources\beach-bird-s-eye-view-coast-50594.jpg" />
+    <None Include="Resources\college2.jpg" />
+    <None Include="Resources\college pic.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
